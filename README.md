@@ -62,8 +62,6 @@
     <div class="about-section">
         <div class="about-img">
             <!-- Placeholder image, replace with your own -->
-            <img src="h<img width="151" alt="Shot of Jerquan" src="https://github.com/jerquanr/jerquanr.github.io/assets/147267874/1e800ef0-3270-4375-940e-f994315b59f9">
-" alt="About Me">
         </div>
         <div class="about-text">
             <p>Made last it seen went no just when of by. Occasional entreaties comparison me difficulty so themselves. At brother inquiry of offices without do my service. As particular to companions at sentiments. Weather however luckily enquire so certain do. Aware did stood was day under ask. Dearest affixed enquire on explain opinion he. Reached who the mrs joy offices pleased. Towards did colonel article any parties.</p>
