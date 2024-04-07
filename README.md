@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -69,7 +68,5 @@
             <p>Hey, this is my about me and here I will put words about me explaining my life and how we got here.</p>
         </div>
     </div>
-</body>
-</html>
 </body>
 </html>
