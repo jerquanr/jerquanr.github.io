@@ -1,7 +1,5 @@
-<!DOCTYPE html>
 <html lang="en">
 
-</head>
 <body>
     <div class="section" id="section1">
         <h1>Welcome</h1>
