@@ -1,16 +1,8 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
 <body>
-
-  <section id="backdrop-welcome">
-                    <div id="welcome">
-                        <h1 class="title">hey, i'm <span class="bold">Jerquan</span>, a front end developer!<br><h6 class="subtitle">+ a graphic designer, digital illustrator, and concept artist</h6></h1>
-                    </div>
-                </section>
+    <div class="section" id="section1">
+        <h1>Welcome</h1>
+        <p>Welcome to the site.</p>
+    </div>
     <div class="section" id="section2">
         <h1>About</h1>
         <p>Here's some info about me.</p>
