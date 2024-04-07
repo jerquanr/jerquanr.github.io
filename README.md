@@ -12,14 +12,6 @@
             height: 100%; /* Full height */
             width: 100%; /* Full width */
         }
-        
-        /* Centering the content */
-        .centered-content {
-            display: flex; /* Use Flexbox */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            text-align: center; /* Center text */
-            height: 100vh; /* Full viewport height */
         }
     </style>
 </head>
