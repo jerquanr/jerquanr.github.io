@@ -63,7 +63,7 @@
     <div class="about-section">
         <div class="about-img">
             <!-- Placeholder image, replace with your own -->
-            <img src="https://imgur.com/a/Kgqxyiu" alt="About Me">
+            <img src="https://imgur.com/gallery/Kgqxyiu" alt="About Me">
         </div>
         <div class="about-text">
             <p>Hey, this is my about me and here I will put words about me explaining my life and how we got here.</p>
