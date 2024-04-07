@@ -5,5 +5,6 @@
 </head>
 <body>
     <h1>Welcome User</h1>
+    <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
 </body>
 </html>
