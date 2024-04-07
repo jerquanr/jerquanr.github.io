@@ -6,16 +6,11 @@
 </head>
 <body>
 
-<table width="100%" height="100vh" border="0">
-    <tr>
-        <td align="center" valign="middle">
-            <center>
-                <h1>Section 1</h1>
-                <p>This is the content of Section 1.</p>
-            </center>
-        </td>
-    </tr>
-</table>
+  <section id="backdrop-welcome">
+                    <div id="welcome">
+                        <h1 class="title">hey, i'm <span class="bold">kayla</span>, a front end developer!<br><h6 class="subtitle">+ a graphic designer, digital illustrator, and concept artist</h6></h1>
+                    </div>
+                </section>
     <div class="section" id="section2">
         <h1>About</h1>
         <p>Here's some info about me.</p>
