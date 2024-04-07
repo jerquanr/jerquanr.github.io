@@ -11,7 +11,6 @@
             width: 100%;
             background-color: #E0F7FA; /* Very light blue background */
         }
-
         .centered-content {
             display: flex;
             justify-content: center;
@@ -19,13 +18,11 @@
             text-align: center;
             height: 100vh;
         }
-
         .centered-content > div, .about-section {
             border: 2px solid #000;
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-
         /* New styles for the About section */
         .about-section {
             display: flex; /* Using Flexbox for the layout */
@@ -33,17 +30,14 @@
             width: 80%; /* Adjust based on preference */
             align-items: center; /* Aligns items vertically center */
         }
-
         .about-img {
             flex: 1; /* Takes up 1/2 of the flex container */
             max-width: 50%; /* Limits image container width */
         }
-
         .about-text {
             flex: 1; /* Takes up the remaining space */
             padding-left: 20px; /* Adds some space between the image and the text */
         }
-
         /* Responsive Image */
         .about-img img {
             width: 100%; /* Makes the image responsive */
