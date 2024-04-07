@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    border: 2px solid #000; /* Black border */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Add some additional styles to make the sections visually distinct and appealing */
+.section {
+    background-color: #f0f0f0; /* Light grey background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    margin: 40px auto; /* Increase margin and center sections */
+    max-width: 80%; /* Limit section width for readability */
+}
+
+h1 {
+    color: #333; /* Dark grey color for headings */
+}
+
+p {
+    line-height: 1.6; /* Increase line height for better readability */
+}
