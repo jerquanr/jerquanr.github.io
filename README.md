@@ -62,7 +62,7 @@
     <div class="about-section">
         <div class="about-img">
             <!-- Placeholder image, replace with your own -->
-            <img src="" alt="About Me">
+            <img src="https://i.pinimg.com/736x/2d/e5/84/2de584ca0fd15ac96551fc8e08422bee.jpg" alt="About Me">
         </div>
         <div class="about-text">
             <p>Made last it seen went no just when of by. Occasional entreaties comparison me difficulty so themselves. At brother inquiry of offices without do my service. As particular to companions at sentiments. Weather however luckily enquire so certain do. Aware did stood was day under ask. Dearest affixed enquire on explain opinion he. Reached who the mrs joy offices pleased. Towards did colonel article any parties.</p>
