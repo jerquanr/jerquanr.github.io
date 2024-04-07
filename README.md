@@ -8,7 +8,7 @@
 
   <section id="backdrop-welcome">
                     <div id="welcome">
-                        <h1 class="title">hey, i'm <span class="bold">kayla</span>, a front end developer!<br><h6 class="subtitle">+ a graphic designer, digital illustrator, and concept artist</h6></h1>
+                        <h1 class="title">hey, i'm <span class="bold">Jerquan</span>, a front end developer!<br><h6 class="subtitle">+ a graphic designer, digital illustrator, and concept artist</h6></h1>
                     </div>
                 </section>
     <div class="section" id="section2">
