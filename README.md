@@ -38,5 +38,17 @@
             <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
         </div>
     </div>
+       <div class="section" id="section3">
+        <h1>Proficiency</h1>
+        <p>Here's my proficiency in certain topics.</p>
+    </div>
+    <div class="section" id="section4">
+        <h1>Skills</h1>
+        <p>Here's my best work.</p>
+    </div>
+    <div class="section" id="section5">
+        <h1>Contact</h1>
+        <p>Here's the best way to contact me.</p>
+    </div>
 </body>
 </html>
