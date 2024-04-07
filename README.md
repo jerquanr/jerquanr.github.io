@@ -1,14 +1,22 @@
+<!DOCTYPE html>
 ww<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@@ -12,16 +12,6 @@
+            height: 100%; /* Full height */
+            width: 100%; /* Full width */
+        }
+        
+        /* Centering the content */
+        .centered-content {
+            display: flex; /* Use Flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            text-align: center; /* Center text */
+            height: 100vh; /* Full viewport height */
+        }
+    </style>
+</head>
 <body>
     <div class="centered-content">
-        <div>
-            <h1>Welcome User</h1>
-            <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
-        </div>
-    </div>
-</body>
-</html>
