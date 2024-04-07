@@ -18,19 +18,5 @@
     <div class="section" id="section5">
         <h1>Contact</h1>
         <p>Here's the best way to contact me.</p>
-    </div>
-                 <!--------------------------------footer-------------------------------->
-                <section id="backdrop-footer">
-                    <div id="footer">
-                    <div class="footer-text">
-                        <p>
-                            <span class="footer-bold"><> </span> with <span class="footer-bold">&#9825; </span>by Kayla Reddick 2024 &#169; 
-                        </p>
-                    </div>
-                    <div class="footer-images">
-                        <a href="https://www.github.com/alyakakakayla" target="_blank"> <img src="./images/githublogo.png" alt="my github"></a>
-                        <a href="https://www.linkedin.com/in/kayla-reddick-34a0a7235/" target="_blank"> <img src="./images/linkedinlogo.png" alt="my linkedin"></a>
-                        <a href="https://www.instagram.com/alyakakakayla/" target="_blank"> <img src="./images/instagramlogo.png" alt="my instagram"></a>
-                    </div>
-                </section>            
+    </div>     
 </body>
