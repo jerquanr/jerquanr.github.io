@@ -59,7 +59,6 @@
             <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
         </div>
     </div>
-
     <!-- About Section -->
     <div class="about-section">
         <div class="about-img">
