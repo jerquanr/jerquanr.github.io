@@ -31,17 +31,21 @@
             flex-wrap: wrap; /* Allow items to wrap if needed */
         }
         .about-img {
-            flex-basis: 40%; /* Adjusts the base size of the image container */
-            max-width: 40%;
+            flex-basis: 60%; /* Adjusts the base size of the image container for enlargement */
+            max-width: 60%;
             position: absolute;
-            left: -100px;
+            left: -200px; /* Moves further to the left */
+            border: 2px solid #000; /* Ensuring the border encapsulates the larger image */
         }
         .about-text {
             flex: 1;
             padding-left: 20px;
-            margin-left: 45%; /* Increased to widen the gap */
-            border: 2px solid #000; /* Extends the border around the text */
-            padding: 20px; /* Added padding inside the border */
+            margin-left: 55%; /* Adjusted to accommodate the larger image */
+            padding: 20px;
+        }
+        .about-img img {
+            width: 100%; /* Ensures the image fills its container */
+            height: auto;
         }
         /* Style for the confirm button */
         .confirm-btn {
@@ -65,17 +69,16 @@
         <div>
             <h1>Welcome User</h1>
             <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
-            <!-- Confirm button -->
             <a href="#" class="confirm-btn">Confirm</a>
         </div>
     </div>
     <!-- About Section -->
     <div class="about-section">
         <div class="about-img">
-            <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" alt="About Me">
+            <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" alt="About Me"> <!-- Increased image size -->
         </div>
         <div class="about-text">
-            <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
+            <p>Hey, this is my about me and here I will put words about me explaining my life and how we got here.</p>
         </div>
     </div>
 </body>
