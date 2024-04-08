@@ -33,7 +33,7 @@
         flex: 1; /* Takes up 1/2 of the flex container */
         max-width: 50%; /* Limits image container width */
         position: absolute; /* Absolute positioning */
-        left: -100px; /* Move to the left by a large margin */
+        left: 100px; /* Move to the left by a large margin */
     }
     .about-text {
         flex: 1; /* Takes up the remaining space */
