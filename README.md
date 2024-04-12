@@ -49,7 +49,7 @@
         /* Navigation Links */
         nav {
             text-align: center;
-            background: #E0F7FA; /* Light blue background for the navigation bar */
+            background: #181823; /* Light blue background for the navigation bar */
             padding: 10px 0;
             position: fixed;
             width: 100%;
@@ -71,7 +71,6 @@
         nav a:nth-child(3) { border-color: #3f51b5; }
         nav a:nth-child(4) { border-color: #009688; }
         nav a:nth-child(5) { border-color: #ff5722; }
-
         nav a:hover {
             color: #0056b3;
         }
