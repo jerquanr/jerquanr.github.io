@@ -9,7 +9,7 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #E0F7FA; /* Base background color remains very light blue */
+            background-color: #181823; /* Base background color remains very light blue */
         }
         .centered-content {
             display: flex;
