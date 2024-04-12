@@ -31,9 +31,18 @@
             border: 1px solid;
             padding: 5px 10px;
             border-radius: 5px;
+            transition: color 0.3s; /* Smooth transition for hover and focus */
+        }
+        nav a:focus {
+            color: #087F23; /* Ensures visibility on keyboard navigation */
+            outline: none; /* Optional: removes the default focus outline */
         }
         nav a:hover {
             color: #087F23; /* Darker green on hover */
+        }
+        @media (max-width: 600px) {
+        .centered-content, .centered-content > div {
+        flex-direction: column;
         }
         .centered-content {
             display: flex;
@@ -91,9 +100,9 @@
                 labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
-                    backgroundColor: 'rgba(255,255,255,1)', // Light blue with transparency
-                    borderColor: 'rgba(255,255,255,1)', // Solid light blue
-                    pointBackgroundColor: 'rgba(255,255,255,1)',
+                    backgroundColor: 'rgba(52, 152, 219,0.5)', // Example: semi-transparent blue
+                    borderColor: '#3498db', // Solid blue
+                    pointBackgroundColor: '#2980b9',
                     data: [90, 90, 90, 90, 90, 90, 90] // Example data
                 }]
             },
