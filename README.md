@@ -65,7 +65,7 @@
         nav {
             text-align: center;
             margin-top: 20px;
-            background: white; /* Background for nav for better visibility */
+            background-color: #E0F7FA; /* Background for nav for better visibility */
             padding: 10px 0;
             position: fixed;
             width: 100%;
