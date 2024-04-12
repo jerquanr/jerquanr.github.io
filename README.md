@@ -91,9 +91,9 @@
                 labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
-                    backgroundColor: 'rgba(135, 206, 235, 0.2)', // Light blue with transparency
-                    borderColor: 'rgba(135, 206, 235, 1)', // Solid light blue
-                    pointBackgroundColor: 'rgba(135, 206, 235, 1)',
+                    backgroundColor: 'rgba(24,24,35,255)', // Light blue with transparency
+                    borderColor: 'rgba(24,24,35,255)', // Solid light blue
+                    pointBackgroundColor: 'rgba(24,24,35,255)',
                     data: [90, 80, 85, 95, 70, 75, 90] // Example data
                 }]
             },
