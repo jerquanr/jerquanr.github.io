@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,12 +11,12 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #181823; /* Very light blue */
-            overflow-x: hidden; /* Prevents horizontal scroll */
+            background-color: #181823;
+            overflow-x: hidden;
         }
         nav {
             text-align: center;
-            background: #181823; /* Light blue background for the navigation bar */
+            background: #181823;
             padding: 10px 0;
             position: fixed;
             width: 100%;
@@ -27,18 +28,13 @@
         nav a {
             margin: 0 10px;
             text-decoration: none;
-            color: #4CAF50; /* Green text to match the Welcome section */
+            color: #4CAF50;
             border: 1px solid;
             padding: 5px 10px;
             border-radius: 5px;
-            transition: color 0.3s; /* Smooth transition for hover and focus */
-        }
-        nav a:focus {
-            color: #087F23; /* Ensures visibility on keyboard navigation */
-            outline: none; /* Optional: removes the default focus outline */
         }
         nav a:hover {
-            color: #087F23; /* Darker green on hover */
+            color: #087F23;
         }
         .centered-content {
             display: flex;
@@ -46,22 +42,45 @@
             align-items: center;
             text-align: center;
             height: 100vh;
-            width: 100%; /* Ensures full viewport width */
-            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Transition from light to darker green */
-            color: white; /* Making text color white for better contrast */
+            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%);
+            color: white;
         }
         .centered-content > div {
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        #about, #skills {
-            background-color: #87CEEB;
+        #about, #skills, #proficiency {
+            background-color: #181823;
             color: white;
             padding: 20px;
-            margin-top: 50px; /* To avoid overlap with the navigation bar */
+            margin-top: 50px;
         }
-        #skills h2, #about h2 {
+        #skills h2, #about h2, #proficiency h2 {
             margin-top: 0;
+        }
+        #proficiency {
+            display: flex;
+            justify-content: space-between;
+        }
+        #contentDisplay {
+            flex: 1;
+            padding: 10px;
+            min-height: 300px;
+        }
+        #inventorySystem {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            flex: 1;
+            padding: 10px;
+        }
+        .inventoryItem {
+            background-color: #4CAF50;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            text-align: center;
         }
     </style>
 </head>
@@ -81,12 +100,20 @@
     </div>
     <div id="about">
         <h2>About</h2>
-        <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 100px; height: 100px; float: left; margin-right: 20px;">
-        <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
+        <img src="https://via.placeholder.com/100" style="width: 100px; height: 100px; float: left; margin-right: 20px;">
+        <p>Description about the user here...</p>
     </div>
     <div id="skills">
         <h2>Skills</h2>
         <canvas id="skillsChart"></canvas>
+    </div>
+    <div id="proficiency">
+        <div id="contentDisplay">
+            Click on any item to display information here.
+        </div>
+        <div id="inventorySystem">
+            <!-- Inventory items will be loaded here by JavaScript -->
+        </div>
     </div>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
@@ -96,10 +123,10 @@
                 labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
-                    backgroundColor: 'rgba(52, 152, 219,0.5)', // Example: semi-transparent blue
-                    borderColor: '#3498db', // Solid blue
-                    pointBackgroundColor: '#2980b9',
-                    data: [90, 90, 90, 90, 90, 90, 90] // Example data
+                    backgroundColor: 'rgba(255,255,255,1)',
+                    borderColor: 'rgba(255,255,255,1)',
+                    pointBackgroundColor: 'rgba(255,255,255,1)',
+                    data: [90, 90, 90, 90, 90, 90, 90]
                 }]
             },
             options: {
@@ -110,6 +137,23 @@
                     }
                 }
             }
+        });
+        // Load inventory items
+        document.addEventListener("DOMContentLoaded", function() {
+            const items = [
+                // Define your items here
+            ];
+            const inventorySystem = document.getElementById("inventorySystem");
+            const contentDisplay = document.getElementById("contentDisplay");
+            items.forEach(item => {
+                const itemElement = document.createElement("button");
+                itemElement.classList.add("inventoryItem");
+                itemElement.textContent = item.name;
+                itemElement.onclick = function() {
+                    contentDisplay.innerHTML = `<h3>${item.name}</h3><p>${item.description}</p><img src="${item.imageUrl}" alt="${item.name}" style="width:100%;">`;
+                };
+                inventorySystem.appendChild(itemElement);
+            });
         });
     </script>
 </body>
