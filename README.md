@@ -19,7 +19,35 @@
             align-items: center;
             text-align: center;
             height: 100vh;
+            width: 100%; /* Ensures full viewport width */
+            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Transition from light to darker green */
+            color: white; /* Making text color white for better contrast */
+        }
+        .centered-content > div {
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .about-section, .skills-section {
+            display: flex;
+            margin: 20px auto;
             width: 100%;
+            align-items: center;
+            position: relative;
+            background-color: #311b92; /* Dark bluish-purple */
+            color: #FFFFFF; /* White text for readability */
+        }
+        .about-img {
+            flex-basis: 50%;
+            max-width: 50%;
+        }
+        .about-text, .skills-text {
+            flex: 1;
+            padding-left: 20px;
+            font-size: 1.2em;
+        }
+        .about-img img, .skills-img img {
+            width: 100%;
+            height: auto;
             background: #4CAF50; /* Green background */
             color: white;
         }
