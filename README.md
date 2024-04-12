@@ -8,7 +8,7 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            width: 200%;
+            width: 100%;
             background-color: #E0F7FA; /* Base background color remains very light blue */
             overflow-x: hidden; /* Prevents horizontal scroll */
         }
@@ -18,7 +18,7 @@
             align-items: center;
             text-align: center;
             height: 100vh;
-            width: 100%; /* Ensures full viewport width */
+            width: 200%; /* Ensures full viewport width */
             background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Transition from light to darker green */
             color: white; /* Making text color white for better contrast */
         }
