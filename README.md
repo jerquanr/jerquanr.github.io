@@ -91,7 +91,7 @@
                 labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
-                    backgroundColor: 'rgba(24,24,35,255)', // Light blue with transparency
+                    backgroundColor: 'rgba(255,255,255,1)', // Light blue with transparency
                     borderColor: 'rgba(255,255,255,1)', // Solid light blue
                     pointBackgroundColor: 'rgba(255,255,255,1)',
                     data: [90, 80, 85, 95, 70, 75, 90] // Example data
