@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,8 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #181823; /* Base background color remains very light blue */
+            background-color: #E0F7FA; /* Base background color remains very light blue */
+            overflow-x: hidden; /* Prevents horizontal scroll */
         }
         .centered-content {
             display: flex;
@@ -17,6 +19,9 @@
             align-items: center;
             text-align: center;
             height: 100vh;
+            width: 100vw; /* Ensures full viewport width */
+            margin: 0; /* Removes any default margin */
+            padding: 0; /* Removes any default padding */
             background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Transition from light to darker green */
             color: white; /* Making text color white for better contrast */
         }
@@ -49,7 +54,7 @@
         /* Navigation Links */
         nav {
             text-align: center;
-            background: #181823; /* Light blue background for the navigation bar */
+            background: #E0F7FA; /* Light blue background for the navigation bar */
             padding: 10px 0;
             position: fixed;
             width: 100%;
@@ -61,19 +66,19 @@
         nav a {
             margin: 0 10px;
             text-decoration: none;
-            color: #4CAF50;
+            color: #4CAF50; /* Green text to match the Welcome section */
             border: 2px solid;
             padding: 5px 10px;
             border-radius: 5px;
+        }
+        nav a:hover {
+            color: #087F23; /* Darker green on hover */
         }
         nav a:nth-child(1) { border-color: #e91e63; }
         nav a:nth-child(2) { border-color: #9c27b0; }
         nav a:nth-child(3) { border-color: #3f51b5; }
         nav a:nth-child(4) { border-color: #009688; }
         nav a:nth-child(5) { border-color: #ff5722; }
-        nav a:hover {
-            color: #087F23;
-        }
     </style>
 </head>
 <body>
