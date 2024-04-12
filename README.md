@@ -51,6 +51,17 @@
             background: #4CAF50; /* Green background */
             color: white;
         }
+        /* Navigation Links */
+        nav {
+            text-align: center;
+            background: #E0F7FA; /* Light blue background for the navigation bar */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         .centered-text {
             width: 100vw;
             position: relative;
