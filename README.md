@@ -31,6 +31,7 @@
             border: 1px solid;
             padding: 5px 10px;
             border-radius: 5px;
+            transition: color 0.3s;
         }
         nav a:hover {
             color: #087F23;
@@ -41,6 +42,7 @@
             align-items: center;
             text-align: center;
             height: 100vh;
+            width: 100%;
             background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%);
             color: white;
         }
@@ -99,8 +101,8 @@
     </div>
     <div id="about">
         <h2>About</h2>
-        <img src="https://via.placeholder.com/100" style="width: 100px; height: 100px; float: left; margin-right: 20px;">
-        <p>Description about the user here...</p>
+        <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 100px; height: 100px; float: left; margin-right: 20px;">>
+        <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
     </div>
     <div id="skills">
         <h2>Skills</h2>
