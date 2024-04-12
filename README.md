@@ -40,10 +40,6 @@
         nav a:hover {
             color: #087F23; /* Darker green on hover */
         }
-        @media (max-width: 600px) {
-        .centered-content, .centered-content > div {
-        flex-direction: column;
-        }
         .centered-content {
             display: flex;
             justify-content: center;
