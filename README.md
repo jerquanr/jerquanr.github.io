@@ -13,6 +13,28 @@
             background-color: #E0F7FA; /* Very light blue */
             overflow-x: hidden; /* Prevents horizontal scroll */
         }
+        nav {
+            text-align: center;
+            background: #E0F7FA; /* Light blue background for the navigation bar */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4CAF50; /* Green text to match the Welcome section */
+            border: 1px solid;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            color: #087F23; /* Darker green on hover */
+        }
         .centered-content {
             display: flex;
             justify-content: center;
@@ -27,74 +49,15 @@
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .about-section, .skills-section {
-            display: flex;
-            margin: 20px auto;
-            width: 100%;
-            align-items: center;
-            position: relative;
-            background-color: #311b92; /* Dark bluish-purple */
-            color: #FFFFFF; /* White text for readability */
-        }
-        .about-img {
-            flex-basis: 50%;
-            max-width: 50%;
-        }
-        .about-text, .skills-text {
-            flex: 1;
-            padding-left: 20px;
-            font-size: 1.2em;
-        }
-        .about-img img, .skills-img img {
-            width: 100%;
-            height: auto;
-            background: #4CAF50; /* Green background */
-            color: white;
-        }
-        /* Navigation Links */
-        nav {
-            text-align: center;
-            background: #E0F7FA; /* Light blue background for the navigation bar */
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        .centered-text {
-            width: 100vw;
-            position: relative;
-        }
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #4CAF50; /* Green text to match the Welcome section */
-            border: 2px solid;
-            padding: 5px 10px;
-            border-radius: 5px;
-            color: #4CAF50; /* Green text for navigation */
-            border: 1px solid randomColor(); /* Randomly colored border */
-            padding: 10px;
-            margin-right: 10px;
-        }
-        nav a:hover {
-        color: #087F23; /* Darker green on hover */
-        #about {
+        #about, #skills {
             background-color: darkslateblue;
             color: white;
             padding: 20px;
+            margin-top: 50px; /* To avoid overlap with the navigation bar */
         }
-        #skills {
-            background-color: darkslateblue;
-            color: white;
-            padding: 20px;
+        #skills h2, #about h2 {
+            margin-top: 0;
         }
-        nav a:nth-child(1) { border-color: #e91e63; }
-        nav a:nth-child(2) { border-color: #9c27b0; }
-        nav a:nth-child(3) { border-color: #3f51b5; }
-        nav a:nth-child(4) { border-color: #009688; }
-        nav a:nth-child(5) { border-color: #ff5722; }
     </style>
 </head>
 <body>
@@ -106,10 +69,9 @@
         <a href="#contact">Contact</a>
     </nav>
     <div id="welcome" class="centered-content">
-        <div class="centered-text">
+        <div>
             <h1>Welcome User</h1>
             <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
-            <a href="#" class="confirm-btn">Confirm</a>
         </div>
     </div>
     <div id="about">
@@ -132,19 +94,18 @@
                     backgroundColor: 'rgba(135, 206, 235, 0.2)', // Light blue with transparency
                     borderColor: 'rgba(135, 206, 235, 1)', // Solid light blue
                     pointBackgroundColor: 'rgba(135, 206, 235, 1)',
-                    data: [90, 90, 90, 90, 90, 90, 90] // Example data
+                    data: [90, 80, 85, 95, 70, 75, 90] // Example data
                 }]
             },
             options: {
                 scale: {
-                ticks: {
-                    beginAtZero: true,
-                    max: 100
+                    ticks: {
+                        beginAtZero: true,
+                        max: 100
+                    }
                 }
             }
-        }
-    });
+        });
     </script>
-
 </body>
 </html>
