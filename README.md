@@ -67,11 +67,19 @@
             position: relative;
         }
         nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4CAF50; /* Green text to match the Welcome section */
+            border: 2px solid;
+            padding: 5px 10px;
+            border-radius: 5px;
             color: #4CAF50; /* Green text for navigation */
             border: 1px solid randomColor(); /* Randomly colored border */
             padding: 10px;
             margin-right: 10px;
         }
+        nav a:hover {
+        color: #087F23; /* Darker green on hover */
         #about {
             background-color: darkslateblue;
             color: white;
@@ -82,6 +90,11 @@
             color: white;
             padding: 20px;
         }
+        nav a:nth-child(1) { border-color: #e91e63; }
+        nav a:nth-child(2) { border-color: #9c27b0; }
+        nav a:nth-child(3) { border-color: #3f51b5; }
+        nav a:nth-child(4) { border-color: #009688; }
+        nav a:nth-child(5) { border-color: #ff5722; }
     </style>
 </head>
 <body>
