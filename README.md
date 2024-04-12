@@ -29,7 +29,7 @@
         .about-section, .skills-section {
             display: flex;
             margin: 20px auto;
-            width: 90%;
+            width: 100%;
             align-items: center;
             position: relative;
             background-color: #311b92; /* Dark bluish-purple */
