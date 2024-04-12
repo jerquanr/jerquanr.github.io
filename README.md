@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -88,7 +87,6 @@
         nav a:nth-child(3) { border-color: #3f51b5; }
         nav a:nth-child(4) { border-color: #009688; }
         nav a:nth-child(5) { border-color: #ff5722; }
-
         nav a:hover {
             color: #0056b3;
         }
