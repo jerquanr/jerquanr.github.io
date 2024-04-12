@@ -10,7 +10,7 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #E0F7FA; /* Very light blue */
+            background-color: #2596be; /* Very light blue */
             overflow-x: hidden; /* Prevents horizontal scroll */
         }
         nav {
