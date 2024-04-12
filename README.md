@@ -110,8 +110,8 @@
     </div>
     <!-- Third Section Placeholder -->
     <div class="third-section">
-        <h2>Third Section</h2>
-        <p>More content to be added here.</p>
+        <h2>Skills</h2>
+        <p>Here is where you can take a look at my specific proficiency in certain skils and areas.</p>
     </div>
 </body>
 </html>
