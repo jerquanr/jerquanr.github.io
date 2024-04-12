@@ -61,7 +61,7 @@
         nav a {
             margin: 0 10px;
             text-decoration: none;
-            color: #007BFF;
+            color: #4CAF50;
             border: 2px solid;
             padding: 5px 10px;
             border-radius: 5px;
@@ -72,7 +72,7 @@
         nav a:nth-child(4) { border-color: #009688; }
         nav a:nth-child(5) { border-color: #ff5722; }
         nav a:hover {
-            color: #0056b3;
+            color: #087F23;
         }
     </style>
 </head>
