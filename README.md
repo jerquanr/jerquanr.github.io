@@ -9,7 +9,7 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #E0F7FA; /* Very light blue background */
+            background-color: #E0F7FA; /* Base background color remains very light blue */
         }
         .centered-content {
             display: flex;
@@ -17,8 +17,10 @@
             align-items: center;
             text-align: center;
             height: 100vh;
+            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Transition from light to darker green */
+            color: white; /* Making text color white for better contrast */
         }
-        .centered-content > div, .about-section, .skills-section {
+        .centered-content > div {
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
@@ -28,18 +30,20 @@
             width: 90%;
             align-items: center;
             position: relative;
+            background-color: #311b92; /* Dark bluish-purple */
+            color: #FFFFFF; /* White text for readability */
         }
         .about-img {
-            flex-basis: 50%; /* Adjusted size to match text block size */
+            flex-basis: 50%;
             max-width: 50%;
         }
         .about-text, .skills-text {
             flex: 1;
             padding-left: 20px;
-            font-size: 1.2em; /* Increases the font size */
+            font-size: 1.2em;
         }
         .about-img img, .skills-img img {
-            width: 100%; /* Ensures the image fills its container */
+            width: 100%;
             height: auto;
         }
         /* Navigation Links */
@@ -51,7 +55,7 @@
             width: 100%;
             top: 0;
             left: 0;
-            z-index: 1000; /* Ensures nav stays on top */
+            z-index: 1000;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         nav a {
@@ -100,9 +104,7 @@
     </div>
     <!-- Skills Section -->
     <div class="skills-section">
-        <div class="skills-text">
-            <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
-        </div>
+        <!-- No text, ready for future content -->
     </div>
 </body>
 </html>
