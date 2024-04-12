@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,32 +18,27 @@
             text-align: center;
             height: 100vh;
         }
-        .centered-content > div, .about-section, .third-section {
+        .centered-content > div, .about-section, .skills-section {
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .about-section {
+        .about-section, .skills-section {
             display: flex;
-            margin: 20px auto 0;
+            margin: 20px auto;
             width: 90%;
             align-items: center;
             position: relative;
-            flex-wrap: wrap; /* Allow items to wrap if needed */
         }
         .about-img {
-            flex-basis: 65%; /* Adjusts the base size of the image container */
-            max-width: 65%;
-            position: absolute;
-            left: -250px; /* Moves further to the left */
+            flex-basis: 50%; /* Adjusted size to match text block size */
+            max-width: 50%;
         }
-        .about-text {
+        .about-text, .skills-text {
             flex: 1;
-            padding-left: 40px; /* Increased padding to move text further right */
-            margin-left: 60%; /* Adjusted to accommodate the larger image */
-            padding: 20px;
+            padding-left: 20px;
             font-size: 1.2em; /* Increases the font size */
         }
-        .about-img img {
+        .about-img img, .skills-img img {
             width: 100%; /* Ensures the image fills its container */
             height: auto;
         }
@@ -77,10 +71,6 @@
         nav a:hover {
             color: #0056b3;
         }
-        .third-section {
-            margin-top: 50px; /* Space for the new section */
-            text-align: center;
-        }
     </style>
 </head>
 <body>
@@ -108,10 +98,11 @@
             <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
         </div>
     </div>
-    <!-- Third Section Placeholder -->
-    <div class="third-section">
-        <h2>Skills</h2>
-        <p>Here is where you can take a look at my specific proficiency in certain skils and areas.</p>
+    <!-- Skills Section -->
+    <div class="skills-section">
+        <div class="skills-text">
+            <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
+        </div>
     </div>
 </body>
 </html>
