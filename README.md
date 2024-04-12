@@ -18,7 +18,7 @@
             align-items: center;
             text-align: center;
             height: 100vh;
-            width: 100%; /* Ensures full viewport width */
+            width: 200%; /* Ensures full viewport width */
             background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Transition from light to darker green */
             color: white; /* Making text color white for better contrast */
         }
