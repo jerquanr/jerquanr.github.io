@@ -55,7 +55,7 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         #about, #skills {
-            background-color: #181823;
+            background-color: #87CEEB;
             color: white;
             padding: 20px;
             margin-top: 50px; /* To avoid overlap with the navigation bar */
