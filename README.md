@@ -10,12 +10,12 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #2596be; /* Very light blue */
+            background-color: #181823; /* Very light blue */
             overflow-x: hidden; /* Prevents horizontal scroll */
         }
         nav {
             text-align: center;
-            background: #2596be; /* Light blue background for the navigation bar */
+            background: #181823; /* Light blue background for the navigation bar */
             padding: 10px 0;
             position: fixed;
             width: 100%;
