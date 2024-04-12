@@ -15,7 +15,7 @@
         }
         nav {
             text-align: center;
-            background: #E0F7FA; /* Light blue background for the navigation bar */
+            background: #2596be; /* Light blue background for the navigation bar */
             padding: 10px 0;
             position: fixed;
             width: 100%;
