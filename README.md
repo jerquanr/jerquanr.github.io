@@ -94,7 +94,7 @@
                     backgroundColor: 'rgba(255,255,255,1)', // Light blue with transparency
                     borderColor: 'rgba(255,255,255,1)', // Solid light blue
                     pointBackgroundColor: 'rgba(255,255,255,1)',
-                    data: [90, 80, 85, 95, 70, 75, 90] // Example data
+                    data: [90, 90, 90, 90, 90, 90, 90] // Example data
                 }]
             },
             options: {
