@@ -109,6 +109,7 @@
         <div class="centered-text">
             <h1>Welcome User</h1>
             <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
+            <a href="#" class="confirm-btn">Confirm</a>
         </div>
     </div>
     <div id="about">
