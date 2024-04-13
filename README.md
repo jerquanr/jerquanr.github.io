@@ -10,12 +10,12 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #181823; /* Very light blue */
+            background-color: #181823; /* Very dark blue */
             overflow-x: hidden; /* Prevents horizontal scroll */
         }
         nav {
             text-align: center;
-            background: #181823; /* Light blue background for the navigation bar */
+            background: #181823; /* Dark blue background for the navigation bar */
             padding: 10px 0;
             position: fixed;
             width: 100%;
@@ -27,18 +27,18 @@
         nav a {
             margin: 0 10px;
             text-decoration: none;
-            color: #4CAF50; /* Green text to match the Welcome section */
+            color: #4CAF50; /* Green text */
             border: 1px solid;
             padding: 5px 10px;
             border-radius: 5px;
             transition: color 0.3s; /* Smooth transition for hover and focus */
         }
         nav a:focus {
-            color: #087F23; /* Ensures visibility on keyboard navigation */
-            outline: none; /* Optional: removes the default focus outline */
+            color: #087F23; /* Dark green on focus */
+            outline: none;
         }
         nav a:hover {
-            color: #087F23; /* Darker green on hover */
+            color: #087F23; /* Dark green on hover */
         }
         .centered-content {
             display: flex;
@@ -46,22 +46,34 @@
             align-items: center;
             text-align: center;
             height: 100vh;
-            width: 100%; /* Ensures full viewport width */
-            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Transition from light to darker green */
-            color: white; /* Making text color white for better contrast */
+            width: 100%;
+            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Gradient green background */
+            color: white;
         }
         .centered-content > div {
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        #about, #skills {
-            background-color: #87CEEB;
+        #about, #skills, #proficiency {
+            background-color: #87CEEB; /* Light blue background */
             color: white;
             padding: 20px;
-            margin-top: 50px; /* To avoid overlap with the navigation bar */
+            margin-top: 50px;
         }
-        #skills h2, #about h2 {
+        #skills h2, #about h2, #proficiency h2 {
             margin-top: 0;
+        }
+        #proficiency {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            border: 1px solid black;
+        }
+        .proficiency-item {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: #fff; /* White background for grid items */
+            color: #333; /* Dark text color for readability */
         }
     </style>
 </head>
@@ -88,6 +100,29 @@
         <h2>Skills</h2>
         <canvas id="skillsChart"></canvas>
     </div>
+    <div id="proficiency">
+        <h2>Proficiency</h2>
+        <div class="proficiency-item">Skill 1</div>
+        <div class="proficiency-item">Skill 2</div>
+        <div class="proficiency-item">Skill 3</div>
+        <div class="proficiency-item">Skill 4</div>
+        <div class="proficiency-item">Skill 5</div>
+        <div class="proficiency-item">Skill 6</div>
+        <div class="proficiency-item">Skill 7</div>
+        <div class="proficiency-item">Skill 8</div>
+        <div class="proficiency-item">Skill 9</div>
+        <div class="proficiency-item">Skill 10</div>
+        <div class="proficiency-item">Skill 11</div>
+        <div class="proficiency-item">Skill 12</div>
+        <div class="proficiency-item">Skill 13</div>
+        <div the "proficiency-item">Skill 14</div>
+        <div class="proficiency-item">Skill 15</div>
+        <div class="proficiency-item">Skill 16</div>
+        <div class="proficiency-item">Skill 17</div>
+        <div class="proficiency-item">Skill 18</div>
+        <div class="proficiency-item">Skill 19</div>
+        <div class="proficiency-item">Skill 20</div>
+    </div>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
         var myRadarChart = new Chart(ctx, {
@@ -96,10 +131,10 @@
                 labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
-                    backgroundColor: 'rgba(52, 152, 219,0.5)', // Example: semi-transparent blue
-                    borderColor: '#3498db', // Solid blue
+                    backgroundColor: 'rgba(52, 152, 219,0.5)',
+                    borderColor: '#3498db',
                     pointBackgroundColor: '#2980b9',
-                    data: [90, 90, 90, 90, 90, 90, 90] // Example data
+                    data: [90, 90, 90, 90, 90, 90, 90]
                 }]
             },
             options: {
