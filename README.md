@@ -117,7 +117,7 @@
         <div class="proficiency-item">Item 9</div>
         <div class="proficiency-item">Item 10</div>
         <div class="proficiency-item">Item 11</div>
-        <div the="proficiency-item">Item 12</div>
+        <div class="proficiency-item">Item 12</div>
         <div class="proficiency-item">Item 13</div>
         <div class="proficiency-item">Item 14</div>
         <div class="proficiency-item">Item 15</div>
