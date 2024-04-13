@@ -66,11 +66,11 @@
         #proficiency {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            grid-gap: 10px;
+            grid-gap: 0; /* No space between grid items */
         }
         .proficiency-item {
             border: 1px solid black;
-            padding: 10px;
+            padding: 0; /* No padding inside items */
             background-color: #fff; /* White background for grid items */
             color: #333; /* Dark text color for readability */
             width: 50px; /* Fixed width for cube shape */
@@ -106,26 +106,26 @@
     </div>
     <div id="proficiency">
         <h2>Proficiency</h2>
-        <div class="proficiency-item">Item 1</div>
-        <div class="proficiency-item">Item 2</div>
-        <div class="proficiency-item">Item 3</div>
-        <div class="proficiency-item">Item 4</div>
-        <div class="proficiency-item">Item 5</div>
-        <div class="proficiency-item">Item 6</div>
-        <div class="proficiency-item">Item 7</div>
-        <div class="proficiency-item">Item 8</div>
-        <div class="proficiency-item">Item 9</div>
-        <div class="proficiency-item">Item 10</div>
-        <div class="proficiency-item">Item 11</div>
-        <div class="proficiency-item">Item 12</div>
-        <div class="proficiency-item">Item 13</div>
-        <div class="proficiency-item">Item 14</div>
-        <div class="proficiency-item">Item 15</div>
-        <div class="proficiency-item">Item 16</div>
-        <div class="proficiency-item">Item 17</div>
-        <div class="proficiency-item">Item 18</div>
-        <div class="proficiency-item">Item 19</div>
-        <div class="proficiency-item">Item 20</div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div the="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
     </div>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
