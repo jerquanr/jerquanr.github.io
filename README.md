@@ -65,19 +65,18 @@
         }
         #proficiency {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(4, 50px); /* Four columns each 50px wide */
+            grid-template-rows: repeat(5, 50px); /* Five rows each 50px high */
             grid-gap: 0; /* No space between grid items */
+            align-items: start;
+            justify-content: start;
         }
         .proficiency-item {
             border: 1px solid black;
             padding: 0; /* No padding inside items */
             background-color: #fff; /* White background for grid items */
-            color: #333; /* Dark text color for readability */
-            width: 50px; /* Fixed width for cube shape */
-            height: 50px; /* Fixed height for cube shape */
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            width: 50px; /* Width to maintain cube shape */
+            height: 50px; /* Height to maintain cube shape */
         }
     </style>
 </head>
@@ -121,6 +120,7 @@
         <div class="proficiency-item"></div>
         <div class="proficiency-item"></div>
         <div class="proficiency-item"></div>
+        <div the="proficiency-item"></div>
         <div class="proficiency-item"></div>
         <div the="proficiency-item"></div>
         <div class="proficiency-item"></div>
@@ -135,8 +135,8 @@
                 labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
-                    backgroundColor: 'rgba(52, 152, 219,0.5)', // Example: semi-transparent blue
-                    borderColor: '#3498db', // Solid blue
+                    backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
+                    borderColor: '#2980b9', // Solid blue
                     pointBackgroundColor: '#2980b9',
                     data: [90, 90, 90, 90, 90, 90, 90] // Example data
                 }]
