@@ -69,7 +69,7 @@
             grid-template-rows: repeat(5, 50px); /* Five rows each 50px high */
             grid-gap: 0; /* No space between grid items */
             align-items: start;
-            justify-content: start;
+            justify-content: end; /* Align grid items to the right side */
         }
         .proficiency-item {
             border: 1px solid black;
@@ -114,15 +114,14 @@
         <div class="proficiency-item"></div>
         <div class="proficiency-item"></div>
         <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
         <div the="proficiency-item"></div>
         <div class="proficiency-item"></div>
-        <div the="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
+        <div class="proficiency-item"></div>
         <div class="proficiency-item"></div>
         <div class="proficiency-item"></div>
         <div class="proficiency-item"></div>
@@ -143,9 +142,12 @@
             },
             options: {
                 scale: {
+                    angleLines: {
+                        display: true
+                    },
                     ticks: {
-                        beginAtZero: true,
-                        max: 100
+                        suggestedMin: 50,
+                        suggestedMax: 100
                     }
                 }
             }
