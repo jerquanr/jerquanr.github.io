@@ -67,13 +67,17 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-gap: 10px;
-            border: 1px solid black;
         }
         .proficiency-item {
             border: 1px solid black;
             padding: 10px;
             background-color: #fff; /* White background for grid items */
             color: #333; /* Dark text color for readability */
+            width: 50px; /* Fixed width for cube shape */
+            height: 50px; /* Fixed height for cube shape */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
@@ -102,26 +106,26 @@
     </div>
     <div id="proficiency">
         <h2>Proficiency</h2>
-        <div class="proficiency-item">Skill 1</div>
-        <div class="proficiency-item">Skill 2</div>
-        <div class="proficiency-item">Skill 3</div>
-        <div class="proficiency-item">Skill 4</div>
-        <div class="proficiency-item">Skill 5</div>
-        <div class="proficiency-item">Skill 6</div>
-        <div class="proficiency-item">Skill 7</div>
-        <div class="proficiency-item">Skill 8</div>
-        <div class="proficiency-item">Skill 9</div>
-        <div class="proficiency-item">Skill 10</div>
-        <div class="proficiency-item">Skill 11</div>
-        <div class="proficiency-item">Skill 12</div>
-        <div class="proficiency-item">Skill 13</div>
-        <div the "proficiency-item">Skill 14</div>
-        <div class="proficiency-item">Skill 15</div>
-        <div class="proficiency-item">Skill 16</div>
-        <div class="proficiency-item">Skill 17</div>
-        <div class="proficiency-item">Skill 18</div>
-        <div class="proficiency-item">Skill 19</div>
-        <div class="proficiency-item">Skill 20</div>
+        <div class="proficiency-item">Item 1</div>
+        <div class="proficiency-item">Item 2</div>
+        <div class="proficiency-item">Item 3</div>
+        <div class="proficiency-item">Item 4</div>
+        <div class="proficiency-item">Item 5</div>
+        <div class="proficiency-item">Item 6</div>
+        <div class="proficiency-item">Item 7</div>
+        <div class="proficiency-item">Item 8</div>
+        <div class="proficiency-item">Item 9</div>
+        <div class="proficiency-item">Item 10</div>
+        <div class="proficiency-item">Item 11</div>
+        <div the="proficiency-item">Item 12</div>
+        <div class="proficiency-item">Item 13</div>
+        <div class="proficiency-item">Item 14</div>
+        <div class="proficiency-item">Item 15</div>
+        <div class="proficiency-item">Item 16</div>
+        <div class="proficiency-item">Item 17</div>
+        <div class="proficiency-item">Item 18</div>
+        <div class="proficiency-item">Item 19</div>
+        <div class="proficiency-item">Item 20</div>
     </div>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
@@ -131,10 +135,10 @@
                 labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
-                    backgroundColor: 'rgba(52, 152, 219,0.5)',
-                    borderColor: '#3498db',
+                    backgroundColor: 'rgba(52, 152, 219,0.5)', // Example: semi-transparent blue
+                    borderColor: '#3498db', // Solid blue
                     pointBackgroundColor: '#2980b9',
-                    data: [90, 90, 90, 90, 90, 90, 90]
+                    data: [90, 90, 90, 90, 90, 90, 90] // Example data
                 }]
             },
             options: {
