@@ -33,12 +33,9 @@
             border-radius: 5px;
             transition: color 0.3s; /* Smooth transition for hover and focus */
         }
-        nav a:focus {
-            color: #087F23; /* Dark green on focus */
+       nav a:focus, nav a:hover {
+            color: #087F23;
             outline: none;
-        }
-        nav a:hover {
-            color: #087F23; /* Dark green on hover */
         }
         .centered-content {
             display: flex;
@@ -167,16 +164,16 @@
         </form>
 </div>
          <script>
-        document.querySelectorAll('.grid-item').forEach(item => {
-            item.addEventListener('click', function() {
-                const imageContainer = document.querySelector('.proficiency-image-container');
-                const newImg = document.createElement('img');
-                newImg.src = document.getElementById('profilePic').src;
-                newImg.style.width = '100px';
-                newImg.style.height = '100px';
-                imageContainer.appendChild(newImg);
-            });
-        }};
+document.querySelectorAll('.proficiency-item').forEach(item => {
+    item.addEventListener('click', function() {
+        const imageContainer = document.querySelector('.proficiency-image-container');
+        const newImg = document.createElement('img');
+        newImg.src = "https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ"; // direct URL
+        newImg.style.width = '100px';
+        newImg.style.height = '100px';
+        imageContainer.appendChild(newImg);
+    });
+});
     </script>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
