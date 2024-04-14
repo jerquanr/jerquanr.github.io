@@ -80,6 +80,7 @@
             background-color: #fff; /* White background for grid items */
             width: 50px; /* Width to maintain cube shape */
             height: 50px; /* Height to maintain cube shape */
+            cursor: pointer; /* Changes cursor to pointer when hovering over grid items */
         }
         #contact {
             display: grid;
