@@ -81,6 +81,24 @@
             width: 50px; /* Width to maintain cube shape */
             height: 50px; /* Height to maintain cube shape */
         }
+        #contact {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-row-gap: 10px;
+            align-items: center;
+        }
+        #contact label {
+            justify-self: end;
+            padding-right: 10px;
+        }
+        #contact input, #contact textarea {
+            padding: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+        textarea {
+            resize: vertical;
+        }
     </style>
 </head>
 <body>
