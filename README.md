@@ -113,6 +113,7 @@
         <div>
             <h1>Welcome User</h1>
             <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
+            <button id="goToAbout">Confirm</button>
         </div>
     </div>
     <div id="about">
@@ -174,7 +175,7 @@
                     backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
                     borderColor: '#2980b9', // Solid blue
                     pointBackgroundColor: '#2980b9',
-                    data: [3, 3, 3, 1, 1, 2, 1] // Example data
+                    data: [3, 3, 3, 1.5, 1.7, 2.3, 1.6] // Example data
                 }]
             },
             options: {
@@ -190,3 +191,8 @@
             }
         });
     </script>
+    <script>
+    document.getElementById('goToAbout').addEventListener('click', function() {
+        window.location.href = '#about';
+    });
+</script>
