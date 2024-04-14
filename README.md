@@ -168,13 +168,13 @@
         var myRadarChart = new Chart(ctx, {
             type: 'radar',
             data: {
-                labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
+                labels: ['Hacking', 'Creativity', 'Writing', 'Customer Service', 'Professionalism', 'Coding', 'System Analysis'],
                 datasets: [{
                     label: 'Skill Level',
                     backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
                     borderColor: '#2980b9', // Solid blue
                     pointBackgroundColor: '#2980b9',
-                    data: [93, 100, 95, 85, 90, 110, 110] // Example data
+                    data: [110, 100, 95, 85, 90, 110, 110] // Example data
                 }]
             },
             options: {
