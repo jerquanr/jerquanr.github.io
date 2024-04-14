@@ -64,16 +64,19 @@
             margin-top: 0;
         }
         #proficiency {
+            display: flex; /* Set proficiency section to flex */
+            justify-content: space-between; /* Space between header and grid */
+            align-items: start; /* Align items to start vertically */
+        }
+        .proficiency-grid {
             display: grid;
             grid-template-columns: repeat(4, 50px); /* Four columns each 50px wide */
             grid-template-rows: repeat(5, 50px); /* Five rows each 50px high */
             grid-gap: 0; /* No space between grid items */
-            align-items: start;
-            justify-content: end; /* Align grid items to the right side */
+            justify-self: end; /* Align grid to the end of the flex container */
         }
         .proficiency-item {
             border: 1px solid black;
-            padding: 0; /* No padding inside items */
             background-color: #fff; /* White background for grid items */
             width: 50px; /* Width to maintain cube shape */
             height: 50px; /* Height to maintain cube shape */
@@ -96,8 +99,7 @@
     </div>
     <div id="about">
         <h2>About</h2>
-        <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 100px; height: 100px; float: left; margin-right: 20px;">
-        <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
+        <p>Profile description here...</p>
     </div>
     <div id="skills">
         <h2>Skills</h2>
@@ -105,26 +107,27 @@
     </div>
     <div id="proficiency">
         <h2>Proficiency</h2>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div the="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
-        <div class="proficiency-item"></div>
+        <div class="proficiency-grid">
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div the="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div the="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+        </div>
     </div>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
