@@ -196,3 +196,4 @@
         window.location.href = '#about';
     });
 </script>
+<body>
