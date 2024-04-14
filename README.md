@@ -33,9 +33,12 @@
             border-radius: 5px;
             transition: color 0.3s; /* Smooth transition for hover and focus */
         }
-       nav a:focus, nav a:hover {
-            color: #087F23;
+        nav a:focus {
+            color: #087F23; /* Dark green on focus */
             outline: none;
+        }
+        nav a:hover {
+            color: #087F23; /* Dark green on hover */
         }
         .centered-content {
             display: flex;
@@ -77,7 +80,6 @@
             background-color: #fff; /* White background for grid items */
             width: 50px; /* Width to maintain cube shape */
             height: 50px; /* Height to maintain cube shape */
-            cursor: pointer; /* Changes cursor to pointer when hovering over grid items */
         }
         #contact {
             display: grid;
@@ -146,7 +148,6 @@
             <div class="proficiency-item"></div>
             <div class="proficiency-item"></div>
         </div>
-        <div class="proficiency-image-container"></div>
     </div>
 <div id="contact">
         <h2>Contact</h2>
@@ -162,22 +163,6 @@
                 <textarea id="message" name="message" rows="4"></textarea>
             </div>
         </form>
-</div>
-         <script>
-document.querySelectorAll('.proficiency-item').forEach(item => {
-    item.addEventListener('click', function() {
-        const imageContainer = document.querySelector('.proficiency-image-container');
-        let img = imageContainer.querySelector('img');
-        if (!img) {
-            img = document.createElement('img');
-            img.style.width = '100px';
-            img.style.height = '100px';
-            imageContainer.appendChild(img);
-        }
-        img.src = "https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ";
-    });
-});
-    </script>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
         var myRadarChart = new Chart(ctx, {
@@ -205,4 +190,3 @@ document.querySelectorAll('.proficiency-item').forEach(item => {
             }
         });
     </script>
-   
