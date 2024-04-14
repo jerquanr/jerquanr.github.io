@@ -160,7 +160,6 @@
                 <input type="email" id="email" name="email">
                 <label for="subject">Subject:</label>
                 <input type="text" id="subject" name="subject">
-                <button type="button" id="goToWelcome">Submit</button>
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4"></textarea>
             </div>
