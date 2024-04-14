@@ -1,6 +1,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #181823; /* Very dark blue */
+            overflow-x: hidden; /* Prevents horizontal scroll */
+        }
+        nav {
+            text-align: center;
+            background: #181823; /* Dark blue background for the navigation bar */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
 	@@ -33,21 +34,18 @@
             border-radius: 5px;
             transition: color 0.3s; /* Smooth transition for hover and focus */
