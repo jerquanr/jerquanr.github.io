@@ -148,6 +148,7 @@
             <div class="proficiency-item"></div>
             <div class="proficiency-item"></div>
         </div>
+        <div class="proficiency-image-container"></div>
     </div>
 <div id="contact">
         <h2>Contact</h2>
@@ -163,6 +164,19 @@
                 <textarea id="message" name="message" rows="4"></textarea>
             </div>
         </form>
+</div>
+         <script>
+        document.querySelectorAll('.grid-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const imageContainer = document.querySelector('.proficiency-image-container');
+                const newImg = document.createElement('img');
+                newImg.src = document.getElementById('profilePic').src;
+                newImg.style.width = '100px';
+                newImg.style.height = '100px';
+                imageContainer.appendChild(newImg);
+            });
+        }};
+    </script>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
         var myRadarChart = new Chart(ctx, {
@@ -190,3 +204,4 @@
             }
         });
     </script>
+   
