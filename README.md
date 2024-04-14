@@ -54,7 +54,7 @@
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        #about, #skills, #proficiency {
+        #about, #skills, #proficiency, #contact {
             background-color: #87CEEB; /* Light blue background */
             color: white;
             padding: 20px;
