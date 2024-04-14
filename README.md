@@ -196,7 +196,7 @@
     document.getElementById('goToAbout').addEventListener('click', function() {
         window.location.href = '#about';
     });
-    document.getElementById('goToWelcome').addEventListener('click', function() {
+    document.getElementById('submit').addEventListener('click', function() {
         window.location.href = '#welcome';
     });
 </script>
