@@ -145,7 +145,7 @@
             <div class="grid-item"></div>
         </div>
     </div>
-    <div id="contact">
+       <div id="contact">
         <h2>Contact</h2>
         <form action="submit_form.php" method="POST">
             <div style="display: grid; grid-template-columns: auto auto; align-items: center;">
@@ -159,6 +159,32 @@
                 <textarea id="message" name="message" rows="4"></textarea>
             </div>
         </form>
+         <script>
+        var ctx = document.getElementById('skillsChart').getContext('2d');
+        var myRadarChart = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
+                datasets: [{
+                    label: 'Skill Level',
+                    backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
+                    borderColor: '#2980b9', // Solid blue
+                    pointBackgroundColor: '#2980b9',
+                    data: [90, 90, 90, 90, 90, 90, 90] // Example data
+                }]
+            },
+            options: {
+                scale: {
+                    angleLines: {
+                        display: true
+                    },
+                    ticks: {
+                        suggestedMin: 50,
+                        suggestedMax: 100
+                            }
+                        }
+                    }
+                }
     </div>
 </body>
 </html>
