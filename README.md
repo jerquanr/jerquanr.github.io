@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,12 +10,12 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #181823;
-            overflow-x: hidden;
+            background-color: #181823; /* Very dark blue */
+            overflow-x: hidden; /* Prevents horizontal scroll */
         }
         nav {
             text-align: center;
-            background: #181823;
+            background: #181823; /* Dark blue background for the navigation bar */
             padding: 10px 0;
             position: fixed;
             width: 100%;
@@ -28,15 +27,18 @@
         nav a {
             margin: 0 10px;
             text-decoration: none;
-            color: #4CAF50;
+            color: #4CAF50; /* Green text */
             border: 1px solid;
             padding: 5px 10px;
             border-radius: 5px;
-            transition: color 0.3s;
+            transition: color 0.3s; /* Smooth transition for hover and focus */
         }
-        nav a:focus, nav a:hover {
-            color: #087F23;
+        nav a:focus {
+            color: #087F23; /* Dark green on focus */
             outline: none;
+        }
+        nav a:hover {
+            color: #087F23; /* Dark green on hover */
         }
         .centered-content {
             display: flex;
@@ -45,7 +47,7 @@
             text-align: center;
             height: 100vh;
             width: 100%;
-            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%);
+            background: linear-gradient(to bottom, #4CAF50 0%, #087F23 100%); /* Gradient green background */
             color: white;
         }
         .centered-content > div {
@@ -53,30 +55,31 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         #about, #skills, #proficiency, #contact {
-            background-color: #87CEEB;
+            background-color: #87CEEB; /* Light blue background */
             color: white;
             padding: 20px;
             margin-top: 50px;
-            border: 1px solid #4CAF50;
+        }
+        #skills h2, #about h2, #proficiency h2 {
+            margin-top: 0;
         }
         #proficiency {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            display: flex; /* Set proficiency section to flex */
+            justify-content: space-between; /* Space between header and grid */
+            align-items: start; /* Align items to start vertically */
         }
-        .grid-container {
+        .proficiency-grid {
             display: grid;
-            grid-template-columns: repeat(5, 20px);
-            grid-template-rows: repeat(4, 20px);
-            gap: 5px;
-            justify-content: flex-start;
+            grid-template-columns: repeat(4, 50px); /* Four columns each 50px wide */
+            grid-template-rows: repeat(5, 50px); /* Five rows each 50px high */
+            grid-gap: 0; /* No space between grid items */
+            justify-self: end; /* Align grid to the end of the flex container */
         }
-        .grid-item {
-            background-color: white;
+        .proficiency-item {
             border: 1px solid black;
-            width: 20px;
-            height: 20px;
-            cursor: pointer; /* Changes cursor to pointer when hovering over grid items */
+            background-color: #fff; /* White background for grid items */
+            width: 50px; /* Width to maintain cube shape */
+            height: 50px; /* Height to maintain cube shape */
         }
         #contact {
             display: grid;
@@ -96,13 +99,6 @@
         textarea {
             resize: vertical;
         }
-        .proficiency-image-container {
-            flex: 1;
-            padding-left: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-        }
     </style>
 </head>
 <body>
@@ -121,7 +117,7 @@
     </div>
     <div id="about">
         <h2>About</h2>
-        <img id="profilePic" src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 100px; height: 100px; float: left; margin-right: 20px;">
+        <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 100px; height: 100px; float: left; margin-right: 20px;">
         <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
     </div>
     <div id="skills">
@@ -130,31 +126,30 @@
     </div>
     <div id="proficiency">
         <h2>Proficiency</h2>
-        <div class="grid-container">
-            <!-- Fill each grid item (20 total) -->
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div the="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
+        <div class="proficiency-grid">
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
         </div>
-        <div class="proficiency-image-container"></div>
     </div>
-    <div id="contact">
+<div id="contact">
         <h2>Contact</h2>
         <form action="submit_form.php" method="POST">
             <div style="display: grid; grid-template-columns: auto auto; align-items: center;">
@@ -162,24 +157,36 @@
                 <input type="text" id="name" name="name">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
-                <label for="subject">Subject:</label
+                <label for="subject">Subject:</label>
                 <input type="text" id="subject" name="subject">
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4"></textarea>
             </div>
         </form>
-    </div>
     <script>
-        document.querySelectorAll('.grid-item').forEach(item => {
-            item.addEventListener('click', function() {
-                const imageContainer = document.querySelector('.proficiency-image-container');
-                const newImg = document.createElement('img');
-                newImg.src = document.getElementById('profilePic').src;
-                newImg.style.width = '100px';
-                newImg.style.height = '100px';
-                imageContainer.appendChild(newImg);
-            });
+        var ctx = document.getElementById('skillsChart').getContext('2d');
+        var myRadarChart = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
+                datasets: [{
+                    label: 'Skill Level',
+                    backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
+                    borderColor: '#2980b9', // Solid blue
+                    pointBackgroundColor: '#2980b9',
+                    data: [90, 90, 90, 90, 90, 90, 90] // Example data
+                }]
+            },
+            options: {
+                scale: {
+                    angleLines: {
+                        display: true
+                    },
+                    ticks: {
+                        suggestedMin: 50,
+                        suggestedMax: 100
+                    }
+                }
+            }
         });
     </script>
-</body>
-</html
