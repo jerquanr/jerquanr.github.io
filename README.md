@@ -174,7 +174,7 @@
                     backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
                     borderColor: '#2980b9', // Solid blue
                     pointBackgroundColor: '#2980b9',
-                    data: [110, 108, 108, 110, 110, 109, 107.5] // Example data
+                    data: [109.5, 108, 108, 110, 110, 109, 107.5] // Example data
                 }]
             },
             options: {
