@@ -162,7 +162,7 @@
                 <input type="text" id="subject" name="subject">
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4"></textarea>
-                <button id="submit" type="submit">Submit</button>
+                <button id="submit" type="button">Submit</button>
             </div>
         </form>
     <script>
