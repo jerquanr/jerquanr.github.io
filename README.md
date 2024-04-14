@@ -190,3 +190,15 @@
             }
         });
     </script>
+    <script>
+        document.querySelectorAll('.grid-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const imageContainer = document.querySelector('.proficiency-image-container');
+                const newImg = document.createElement('img');
+                newImg.src = document.getElementById('profilePic').src;
+                newImg.style.width = '100px';
+                newImg.style.height = '100px';
+                imageContainer.appendChild(newImg);
+            });
+        });
+    </script>
