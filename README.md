@@ -113,12 +113,11 @@
         <div>
             <h1>Welcome User</h1>
             <p>Welcome to my website. Feel free to look around at my life's achievements and aspirations.</p>
-            <button id="goToAbout">Confirm</button>
         </div>
     </div>
     <div id="about">
         <h2>About</h2>
-        <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 200px; height: 200px; float: left; margin-right: 20px;">
+        <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 230px; height: 230px; float: left; margin-right: 20px;">
         <p>I'm a cybersecurity practitioner who plays CTFs as a hobby and loves to learn more about cybersecurity. I have a variety of skill sets when it comes to cybersecurity including, Metasploit, Kali Linux, Wireshark, and even Steghide. I am extremely adaptable in many situations and I'm not afraid to try something new. I enrolled at George Mason University with the intended major of BS in Computer Science due to my interest in programming and computers. I then transferred to Old Dominion University where I plan to obtain a BS in Cybersecurity due to my interest in penetration testing and all things CTF.</p>
     </div>
     <div id="skills">
@@ -162,7 +161,6 @@
                 <input type="text" id="subject" name="subject">
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4"></textarea>
-                <button type="button" id="goToWelcome">Submit</button>
             </div>
         </form>
     <script>
@@ -170,13 +168,13 @@
         var myRadarChart = new Chart(ctx, {
             type: 'radar',
             data: {
-                labels: ['Hacking', 'Creativity', 'Writing', 'Laziness', 'Indecisive', 'Coding', 'System Analysis'],
+                labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
                 datasets: [{
                     label: 'Skill Level',
                     backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
                     borderColor: '#2980b9', // Solid blue
                     pointBackgroundColor: '#2980b9',
-                    data: [3, 3, 3, 1.5, 1.7, 2.3, 2] // Example data
+                    data: [93, 100, 95, 85, 90, 110, 110] // Example data
                 }]
             },
             options: {
@@ -191,15 +189,4 @@
                 }
             }
         });
-         });
     </script>
-    <script>
-    document.getElementById('goToAbout').addEventListener('click', function() {
-        window.location.href = '#about';
-    </script>
-    <script>
-    document.getElementById('goToWelcome').addEventListener('click', function() {
-        window.location.href = '#welcome';
-    });
-</script>
-<body>
