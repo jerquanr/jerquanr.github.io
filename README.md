@@ -167,11 +167,14 @@
 document.querySelectorAll('.proficiency-item').forEach(item => {
     item.addEventListener('click', function() {
         const imageContainer = document.querySelector('.proficiency-image-container');
-        const newImg = document.createElement('img');
-        newImg.src = "https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ"; // direct URL
-        newImg.style.width = '100px';
-        newImg.style.height = '100px';
-        imageContainer.appendChild(newImg);
+        let img = imageContainer.querySelector('img');
+        if (!img) {
+            img = document.createElement('img');
+            img.style.width = '100px';
+            img.style.height = '100px';
+            imageContainer.appendChild(img);
+        }
+        img.src = "https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ";
     });
 });
     </script>
