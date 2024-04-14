@@ -131,6 +131,18 @@
             <div class="proficiency-item"></div>
         </div>
     </div>
+        <div id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+        </form>
     <script>
         var ctx = document.getElementById('skillsChart').getContext('2d');
         var myRadarChart = new Chart(ctx, {
