@@ -120,9 +120,9 @@
             <div class="proficiency-item"></div>
             <div class="proficiency-item"></div>
             <div class="proficiency-item"></div>
-            <div the="proficiency-item"></div>
             <div class="proficiency-item"></div>
-            <div the="proficiency-item"></div>
+            <div class="proficiency-item"></div>
+            <div class="proficiency-item"></div>
             <div class="proficiency-item"></div>
             <div class="proficiency-item"></div>
             <div class="proficiency-item"></div>
