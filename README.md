@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,6 +71,7 @@
         }
         .proficiency-grid {
             display: grid;
+            margin-right: -620px;
             grid-template-columns: repeat(4, 50px); /* Four columns each 50px wide */
             grid-template-rows: repeat(5, 50px); /* Five rows each 50px high */
             grid-gap: 0; /* No space between grid items */
@@ -155,6 +157,10 @@
             <div class="proficiency-item" ></div>
             <div class="proficiency-item" ></div>
         </div>
+        <div class="document-viewer">
+        <iframe id="docFrame" style="width:100%; height:400px; border:none;"></iframe>
+    </div>
+</div>
     </div>
 <div id="contact">
         <h2>Contact</h2>
@@ -205,4 +211,64 @@
     document.getElementById('submit').addEventListener('click', function() {
         window.location.href = '#welcome';
     });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var docUrls = [
+        "https://docs.google.com/document/d/1egzmSV451-ghXOxiewqQe5YuNNZGvlNx7Ib27HyzbQA/preview",
+        "https://docs.google.com/document/d/1WZH5B6aItXKE8ihS81jdUY_ioEn1GWq1f8DX_5iVMLc/preview",
+        "https://docs.google.com/document/d/1YXou0obL6sYkMLV3wvjSvBN3xb9ixDpqx8hQaySkfvQ/preview",
+        "",
+        "https://docs.google.com/document/d/1MuOIBRh_hMzdB0wmjO9COb9QpQNyeXQ9nnZ9NWIfl2I/preview",
+        "https://docs.google.com/document/d/1S7egU7lZyhHS8qlxWgLZBmhUuDl0HuLK9DnDNLSve8o/preview",
+        "https://docs.google.com/document/d/1cEE27k02XaVxyBxXn1Vkjgb0241npYf9kdw26selwlU/preview",
+        "",
+        "", // Other content
+        "https://jerquanr.github.io/#welcome",
+        "https://summitctf.org/"
+    ];
+    const proficiencyItems = document.querySelectorAll('#proficiency .proficiency-item');
+    proficiencyItems.forEach((item, index) => {
+        item.addEventListener('click', function() {
+            const docFrame = document.getElementById('docFrame');
+            if (docUrls[index]) {
+                docFrame.src = docUrls[index];
+            } else {
+                docFrame.src = ''; // Clear the iframe if no document is associated
+            }
+        });
+    });
+});
+// Existing scripts for chart and navigation buttons
+var ctx = document.getElementById('skillsChart').getContext('2d');
+var myRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+        labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
+        datasets: [{
+            label: 'Skill Level',
+            backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
+            borderColor: '#2980b9', // Solid blue
+            pointBackgroundColor: '#2980b9',
+            data: [3, 3, 3, 1.95, 1.95, 3, 2.4] // Example data
+        }]
+    },
+    options: {
+        scale: {
+            angleLines: {
+                display: true
+            },
+            ticks: {
+                suggestedMin: 50,
+                suggestedMax: 100
+            }
+        }
+    }
+});
+document.getElementById('goToAbout').addEventListener('click', function() {
+    window.location.href = '#about';
+});
+document.getElementById('submit').addEventListener('click', function() {
+    window.location.href = '#welcome';
+});
 </script>
