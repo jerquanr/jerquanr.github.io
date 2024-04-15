@@ -186,7 +186,7 @@
                     backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
                     borderColor: '#2980b9', // Solid blue
                     pointBackgroundColor: '#2980b9',
-                    data: [3, 3, 3, 1.95, 1.95, 3, 2.4] // Example data
+                    data: [3, 3, 3, 1.95, 1.95, 3, 2.4] 
                 }]
             },
             options: {
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "https://docs.google.com/document/d/1S7egU7lZyhHS8qlxWgLZBmhUuDl0HuLK9DnDNLSve8o/preview",
         "https://docs.google.com/document/d/1cEE27k02XaVxyBxXn1Vkjgb0241npYf9kdw26selwlU/preview",
         "",
-        "", // Other content
+        "",
         "https://jerquanr.github.io/#welcome",
         "https://summitctf.org/"
     ];
@@ -237,7 +237,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-// Existing scripts for chart and navigation buttons
 var ctx = document.getElementById('skillsChart').getContext('2d');
 var myRadarChart = new Chart(ctx, {
     type: 'radar',
