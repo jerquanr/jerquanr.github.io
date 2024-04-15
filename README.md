@@ -71,7 +71,7 @@
         }
         .proficiency-grid {
             display: grid;
-            margin-left: 500px;
+            margin-left: -200px;
             grid-template-columns: repeat(4, 50px); /* Four columns each 50px wide */
             grid-template-rows: repeat(5, 50px); /* Five rows each 50px high */
             grid-gap: 0; /* No space between grid items */
