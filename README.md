@@ -125,7 +125,7 @@
     <div id="about">
         <h2>About</h2>
         <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 200px; height: 200px; float: left; margin-right: 20px;">
-        <p><br><b>Detailing events of my past that transformed me into the person of today.
+        <p><br><b>Detailing events of my past that transformed me into the person of today.</b>
         <br>by Jerquan Brabble
         <br>Old Dominion University
         <br><br>Early Life
