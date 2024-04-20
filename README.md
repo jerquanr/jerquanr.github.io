@@ -128,7 +128,7 @@
         <p><br><b>Detailing events of my past that transformed me into the person of today.</b>
         <br>by Jerquan Brabble
         <br>Old Dominion University
-        <br><br>Early Life
+        <br><br><b>Early Life</b>
 <br><br>Ever since I was a young boy I was always interested in technology. Ever since my dad 
 introduced me to the family computer in the guest bedroom. This was in the early days back 
 when you could only get internet via those linksy sticks. I remember spending countless hours 
@@ -151,7 +151,7 @@ access to it. It was mind blowing and I can’t even count the amount of hours I
 chromebooks. It was an extremely life changing experience and leads me to the decision that I 
 made next. 
 <br>
-<br>High School
+<br><b>High School</b>
 <br><br>Specifically in my school district I had the opportunity to go to different schools if I 
 wanted to based on a program called the speciality center. Basically the speciality center would 
 allow me to study alongside like minded students as well as have classes focused around that 
@@ -177,7 +177,7 @@ had to make a drastic decision, which was the major I would pursue going forward
 thinking I decided that the potential gains were higher on the side of computer science so I 
 decided to apply for several different colleges and I was accepted by George Mason University.
 <br>
-<br>College
+<br><b>College</b>b>
 <br><br>Accepted by George Mason University I was thrilled to begin a new chapter in my life. I 
 would be able to experience college life and pursue my bachelor’s in computer science. The first 
 semester went extremely well. I had two roommates and I was enjoying every part of college. 
@@ -218,7 +218,7 @@ also to get connections that may be able to lead to job opportunities. Now I’v
 interviews for actual professional jobs which is something I’ve never done before and it leads 
 into what’s next for my future. 
 <br>
-<br>Conclusion and Future Endeavors
+<br><b>Conclusion and Future Endeavors</b>
 <br><br>Now obviously I don’t know what the future holds for me but going back to that ethical 
 hacking class I talked about earlier I’m currently thinking about eventually climbing the ranks to 
 get an ethical hacking job. I’m currently waiting for some interviews to give me their response on 
