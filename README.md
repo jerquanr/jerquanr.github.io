@@ -125,14 +125,11 @@
     <div id="about">
         <h2>About</h2>
         <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 200px; height: 200px; float: left; margin-right: 20px;">
-        <p>Story of my life:Detailing events of my past that 
-transformed me into the person of today
-Jerquan Brabble
-Old Dominion University
-
-Early Life
-
-Ever since I was a young boy I was always interested in technology. Ever since my dad 
+        <p>Story of my life.<br>Detailing events of my past that transformed me into the person of today.
+        <br>Jerquan Brabble
+        <br>Old Dominion UniversitY
+        <br><br>Early Life
+<br>Ever since I was a young boy I was always interested in technology. Ever since my dad 
 introduced me to the family computer in the guest bedroom. This was in the early days back 
 when you could only get internet via those linksy sticks. I remember spending countless hours 
 on that computer, usually just to play games, mostly minesweeper and wizard101. I remember 
@@ -153,9 +150,9 @@ only did I have unlimited information at my fingertips specifically for me but I
 access to it. It was mind blowing and I can’t even count the amount of hours I spent using those 
 chromebooks. It was an extremely life changing experience and leads me to the decision that I 
 made next. 
-
-High School
-Specifically in my school district I had the opportunity to go to different schools if I 
+<br>
+<br>High School
+<br>Specifically in my school district I had the opportunity to go to different schools if I 
 wanted to based on a program called the speciality center. Basically the speciality center would 
 allow me to study alongside like minded students as well as have classes focused around that 
 specific specialty. Now the school that I was originally sent to was the speciality center for 
@@ -179,8 +176,8 @@ definitely programming and cybersecurity. With the end of my required schooling 
 had to make a drastic decision, which was the major I would pursue going forward. After a lot of 
 thinking I decided that the potential gains were higher on the side of computer science so I 
 decided to apply for several different colleges and I was accepted by George Mason University.
-
-College
+<br>
+<br>College
 Accepted by George Mason University I was thrilled to begin a new chapter in my life. I 
 would be able to experience college life and pursue my bachelor’s in computer science. The first 
 semester went extremely well. I had two roommates and I was enjoying every part of college. 
@@ -220,9 +217,9 @@ been working extremely hard to not only participate in more events to put on my 
 also to get connections that may be able to lead to job opportunities. Now I’ve started getting 
 interviews for actual professional jobs which is something I’ve never done before and it leads 
 into what’s next for my future. 
-
-Conclusion and Future Endeavors
-Now obviously I don’t know what the future holds for me but going back to that ethical 
+<br>
+<br>Conclusion and Future Endeavors
+<br>Now obviously I don’t know what the future holds for me but going back to that ethical 
 hacking class I talked about earlier I’m currently thinking about eventually climbing the ranks to 
 get an ethical hacking job. I’m currently waiting for some interviews to give me their response on 
 my status but if I do get an internship that would make getting a job after graduation much 
