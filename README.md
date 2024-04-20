@@ -127,7 +127,7 @@
         <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 200px; height: 200px; float: left; margin-right: 20px;">
         <p>Story of my life.<br>Detailing events of my past that transformed me into the person of today.
         <br>Jerquan Brabble
-        <br>Old Dominion UniversitY
+        <br>Old Dominion University
         <br><br>Early Life
 <br>Ever since I was a young boy I was always interested in technology. Ever since my dad 
 introduced me to the family computer in the guest bedroom. This was in the early days back 
