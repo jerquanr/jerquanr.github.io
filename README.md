@@ -177,7 +177,7 @@ had to make a drastic decision, which was the major I would pursue going forward
 thinking I decided that the potential gains were higher on the side of computer science so I 
 decided to apply for several different colleges and I was accepted by George Mason University.
 <br>
-<br><b>College</b>b>
+<br><b>College</b>
 <br><br>Accepted by George Mason University I was thrilled to begin a new chapter in my life. I 
 would be able to experience college life and pursue my bachelor’s in computer science. The first 
 semester went extremely well. I had two roommates and I was enjoying every part of college. 
