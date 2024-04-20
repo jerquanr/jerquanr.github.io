@@ -129,7 +129,7 @@
         <br>Jerquan Brabble
         <br>Old Dominion University
         <br><br>Early Life
-<br>Ever since I was a young boy I was always interested in technology. Ever since my dad 
+<br><br>Ever since I was a young boy I was always interested in technology. Ever since my dad 
 introduced me to the family computer in the guest bedroom. This was in the early days back 
 when you could only get internet via those linksy sticks. I remember spending countless hours 
 on that computer, usually just to play games, mostly minesweeper and wizard101. I remember 
@@ -152,7 +152,7 @@ chromebooks. It was an extremely life changing experience and leads me to the de
 made next. 
 <br>
 <br>High School
-<br>Specifically in my school district I had the opportunity to go to different schools if I 
+<br><br>Specifically in my school district I had the opportunity to go to different schools if I 
 wanted to based on a program called the speciality center. Basically the speciality center would 
 allow me to study alongside like minded students as well as have classes focused around that 
 specific specialty. Now the school that I was originally sent to was the speciality center for 
@@ -178,7 +178,7 @@ thinking I decided that the potential gains were higher on the side of computer 
 decided to apply for several different colleges and I was accepted by George Mason University.
 <br>
 <br>College
-Accepted by George Mason University I was thrilled to begin a new chapter in my life. I 
+<br><br>Accepted by George Mason University I was thrilled to begin a new chapter in my life. I 
 would be able to experience college life and pursue my bachelor’s in computer science. The first 
 semester went extremely well. I had two roommates and I was enjoying every part of college. 
 Being able to do things on your own time was such a different experience than what I had at 
@@ -219,7 +219,7 @@ interviews for actual professional jobs which is something I’ve never done bef
 into what’s next for my future. 
 <br>
 <br>Conclusion and Future Endeavors
-<br>Now obviously I don’t know what the future holds for me but going back to that ethical 
+<br><br>Now obviously I don’t know what the future holds for me but going back to that ethical 
 hacking class I talked about earlier I’m currently thinking about eventually climbing the ranks to 
 get an ethical hacking job. I’m currently waiting for some interviews to give me their response on 
 my status but if I do get an internship that would make getting a job after graduation much 
