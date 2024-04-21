@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +61,7 @@
             padding: 20px;
             margin-top: 50px;
         }
-        #skills h2, #about h2, #proficiency h2 {
+        #skills h2, #about h2, #proficiency h2, #resume h2, #reflection h2 {
             margin-top: 0;
         }
         #proficiency {
@@ -125,10 +127,10 @@
         </div>
     </div>
     <div id="about">
-        <h2>About</h2>
-        <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 200px; height: 200px; float: left; margin-right: 20px;">
-<p><br><b>Detailing events of my past that transformed me into the person of today.</b>
-        <br>by Jerquan Brabble
+    <h2>About</h2>
+    <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 200px; height: 200px; float: left; margin-right: 20px;">
+    <p><b>Detailing events of my past that transformed me into the person of today.</b></p>
+      by Jerquan Brabble
         <br>Old Dominion University
         <br><br><b>Early Life</b>
 <br><br>Ever since I was a young boy I was always interested in technology. Ever since my dad 
@@ -228,7 +230,12 @@ my status but if I do get an internship that would make getting a job after grad
 easier and it would help to build out my resume even more. As it stands I am set to graduate in 
 the fall of 2024 and I have thoroughly enjoyed every step in the process that helped to create 
 the current version of myself that now exists.</p>
-    </div>
+</div>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <p>This section will contain my professional resume, showcasing my experience, education, and achievements.</p>
+</section>
     <div id="skills">
         <h2>Skills</h2>
         <canvas id="skillsChart"></canvas>
@@ -261,6 +268,10 @@ the current version of myself that now exists.</p>
         <iframe id="docFrame" style="width:100%; height:400px; border:none;"></iframe>
     </div>
 </div>
+ <section id="reflection">
+        <h2>Reflection</h2>
+        <p>This section will explore my personal insights and reflections on my professional journey and growth.</p>
+    </section>
     </div>
 <div id="contact">
         <h2>Contact</h2>
