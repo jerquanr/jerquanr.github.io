@@ -286,7 +286,6 @@ the current version of myself that now exists.</p>
     </ul>
         <h2>Memberships</h2>
     <p>Cybersecurity Student Association</p>
-</header>
 </section>
     <div id="skills">
         <h2>Skills</h2>
