@@ -239,21 +239,21 @@ the current version of myself that now exists.</p>
         <h2>Skills</h2>
         <canvas id="skillsChart"></canvas>
     </div>
-    <div id="proficiency">
+        <div id="proficiency">
         <h2>Proficiency</h2>
         <div class="proficiency-grid">
-            <div class="proficiency-item" ><img src="https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-paper-icon-png-image_6294297.png" alt="Image 1"></div>
+            <div class="proficiency-item" ><img src="https://logos.flamingtext.com/Word-Logos/writing-design-sketch-name.png" alt="Image 1"></div>
             <div class="proficiency-item" ><img src="https://icons.iconarchive.com/icons/iconsmind/outline/512/Paper-icon.png" alt="Image 2"></div>
             <div class="proficiency-item" ><img src="https://static.thenounproject.com/png/2473397-200.png" alt="Image 3"></div>
-            <div class="proficiency-item" ><img src="https://logos.flamingtext.com/Word-Logos/writing-design-sketch-name.png" alt="Image 4"></div>
-            <div class="proficiency-item" ><img src="https://cdn-icons-png.flaticon.com/512/6463/6463383.png" alt="Image 5"></div>
+            <div class="proficiency-item" ><img src="https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-paper-icon-png-image_6294297.png" alt="Image 4"></div>
+            <div class="proficiency-item" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4X2zYfSztRV5Ou6CSJ5pnsrzGjaEp3Sg7tSL_HBdDA&s" alt="Image 5"></div>
             <div class="proficiency-item" ><img src="https://static.thenounproject.com/png/2216968-200.png" alt="Image 6"></div>
             <div class="proficiency-item" ><img src="https://static-00.iconduck.com/assets.00/malware-detected-icon-426x512-kbw42at9.png" alt="Image 7"></div>
-            <div class="proficiency-item" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4X2zYfSztRV5Ou6CSJ5pnsrzGjaEp3Sg7tSL_HBdDA&s" alt="Image 8"></div>
-            <div class="proficiency-item" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Video_camera_icon.svg/1200px-Video_camera_icon.svg.png" alt="Image 9"></div>
+            <div class="proficiency-item" ><img src="https://cdn-icons-png.flaticon.com/512/6463/6463383.png" alt="Image 8"></div>
+            <div class="proficiency-item" ><img src="https://i.ytimg.com/vi/tTtjETjGDFY/maxresdefault.jpg" alt="Image 9"></div>
             <div class="proficiency-item" ><img src="https://p7.hiclipart.com/preview/569/605/184/internet-icon-internet-access-web-browser-circle-with-line-through-it.jpg" alt="Image 10"></div>
             <div class="proficiency-item" ><img src="https://deow9bq0xqvbj.cloudfront.net/ep-logo/pbblog8987066/EP55_CTF_Iconbdemd.png" alt="Image 11"></div>
-            <div class="proficiency-item" ><img src="https://i.ytimg.com/vi/tTtjETjGDFY/maxresdefault.jpg" alt="Image 12"></div>
+            <div class="proficiency-item" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Video_camera_icon.svg/1200px-Video_camera_icon.svg.png" alt="Image 12"></div>
             <div class="proficiency-item" ></div>
             <div class="proficiency-item" ></div>
             <div class="proficiency-item" ></div>
