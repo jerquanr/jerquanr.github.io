@@ -238,7 +238,8 @@ the current version of myself that now exists.</p>
 </section>
     <div id="skills">
         <h2>Skills</h2>
-	@@ -243,18 +297,18 @@ the current version of myself that now exists.</p>
+        <canvas id="skillsChart"></canvas>
+    </div>
     <div id="proficiency">
         <h2>Proficiency</h2>
         <div class="proficiency-grid">
@@ -273,7 +274,35 @@ the current version of myself that now exists.</p>
     </section>
     </div>
 <div id="contact">
-	@@ -306,34 +363,34 @@
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <div style="display: grid; grid-template-columns: auto auto; align-items: center;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <button id="submit" type="button">Submit</button>
+            </div>
+        </form>
+    <script>
+        var ctx = document.getElementById('skillsChart').getContext('2d');
+        var myRadarChart = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['Hacking', 'Creativity', 'Writing', 'Coding', 'System Analysis', 'Customer Service', 'Professionalism'],
+                datasets: [{
+                    label: 'Skill Level',
+                    backgroundColor: 'rgba(52, 152, 219, 0.5)', // Semi-transparent blue
+                    borderColor: '#2980b9', // Solid blue
+                    pointBackgroundColor: '#2980b9',
+                    data: [3, 3, 3, 1.95, 1.95, 3, 2.4] 
+                }]
+            },
+            options: {
                 scale: {
                     angleLines: {
                         display: true
