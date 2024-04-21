@@ -233,107 +233,29 @@ the current version of myself that now exists.</p>
 
 <section id="resume">
     <h2>Resume</h2>
-    <p><b>Detailing events of my past that transformed me into the person of today.</b></p>
-      by Jerquan Brabble
-        <br>Old Dominion University
-        <br><br><b>Early Life</b>
-<br><br>Ever since I was a young boy I was always interested in technology. Ever since my dad 
-introduced me to the family computer in the guest bedroom. This was in the early days back 
-when you could only get internet via those linksy sticks. I remember spending countless hours 
-on that computer, usually just to play games, mostly minesweeper and wizard101. I remember 
-that since you couldn't progress in that game past a certain point without spending money I 
-used to make several accounts just to play all the classes and waste countless hours. Or back 
-when CD roms were prevalent I remember that my dad used to purchase a bunch of CD roms 
-that would try to teach you about things. At the time all I saw were just fun games and a way to 
-spend my time but looking back on it really does bring back a lot of nostalgia. Then I got into 
-elementary school and they started introducing us to these small little typing machines. They 
-weren’t quite computers in the traditional sense but they were used to introduce the concept of 
-typing to small children so that we could get integrated with technology. Then one day I got into 
-middle school and there they introduced me to chromebooks. You have to understand that at 
-the time any interaction I had with computers was limited because I needed to focus on other 
-things that weren’t computer related. So giving a child a laptop and allowing them free access to 
-do almost anything they wanted to was like realizing that we aren’t the only ones in the 
-universe. It was that big of a revelation that it warped my world view and way of thinking. Not 
-only did I have unlimited information at my fingertips specifically for me but I had unlimited 
-access to it. It was mind blowing and I can’t even count the amount of hours I spent using those 
-chromebooks. It was an extremely life changing experience and leads me to the decision that I 
-made next. 
-<br>
-<br><b>High School</b>
-<br><br>Specifically in my school district I had the opportunity to go to different schools if I 
-wanted to based on a program called the speciality center. Basically the speciality center would 
-allow me to study alongside like minded students as well as have classes focused around that 
-specific specialty. Now the school that I was originally sent to was the speciality center for 
-Information Technology or IT and with the experience and joy I had for computers I of course 
-applied and got accepted to the speciality center. While I was in the speciality center I met so 
-many talented individuals with ambitions far greater than I realized at the time who helped me to 
-grow and experience the wonder of IT. All of the classes with the exception of electives were 
-focused on the core subjects like math, english, social studies, and science but the only 
-difference is that it was heavily computer based. This gave me a lot of experience with 
-computers in general as well as completing work using computers. It was a wonderful 
-experience that I enjoyed thoroughly that only helped to foster my love for computers. Now 
-when I was able to freely pick my electives I chose the basics for computer science and 
-networking just because they were computer related and I love computers. When I got into 
-those classes and actually got to experience the content I really enjoyed every part of it. 
-Everything was so fun to me, how computers interacted with each other, the fact that code 
-made things work with a few sentences, the many different softwares that people used daily. I 
-wanted to learn more about all of these things. So as the years went by I continued doing all of 
-the computer based classes my school had to offer and I got to experience a fair amount of 
-information technology. As a result of this experience, the most interesting concepts to me were 
-definitely programming and cybersecurity. With the end of my required schooling drawing near I 
-had to make a drastic decision, which was the major I would pursue going forward. After a lot of 
-thinking I decided that the potential gains were higher on the side of computer science so I 
-decided to apply for several different colleges and I was accepted by George Mason University.
-<br>
-<br><b>College</b>
-<br><br>Accepted by George Mason University I was thrilled to begin a new chapter in my life. I 
-would be able to experience college life and pursue my bachelor’s in computer science. The first 
-semester went extremely well. I had two roommates and I was enjoying every part of college. 
-Being able to do things on your own time was such a different experience than what I had at 
-home and it's cliche to say but I had a little freedom and unfortunately I went overboard with it. I 
-spent my time hanging out with my new friends and going to all the school events and I realize 
-that my grade suffered as a part of it. I had completely forgotten about the main reason why I 
-was at George Mason to begin with. However, I realized much too late that I had made a 
-mistake and into my second year of college I had managed to fail a class and lose interest in the 
-very major I was working so hard to pursue. Fail is also a strong word to describe this situation 
-as it was more so a result of me letting my grades slip by not doing assignments since I didn't 
-find them interesting any more. Nevertheless my grades slipped as a result and I desperately 
-wanted to change majors. Unfortunately, the requirements to change majors would require me 
-to take a class over the summer and increase my GPA by acing that class, a feat I was not 
-capable of with my mindset back then. So I transferred here to Old Dominion University where I 
-was able to pursue my Bachelor of Science in Cybersecurity. Finally, I was on track to pursue a 
-degree in a field that I’m passionate about. During my time at Old Dominion I have taken many 
-classes related to cyber security and I have thoroughly enjoyed every second of them. I have 
-never thought that the decision to change my major would have been a bad one but I didn't 
-realize just how much of a good decision it actually was until I did it. The most prominent of my 
-classes was definitely any class that allowed me to actually do hands-on work like labs or 
-projects. It was in these classes that I thrived and where I enjoyed my experiences the most. 
-Specifically in CYSE301 an introductory class about ethical hacking every week we would do a 
-different lab that I collaborated with a few of my peers around every tuesday. It was a wonderful 
-experience that made me appreciate team work and the field that I chose. I also had the 
-pleasure of taking up a job while at Old Dominion. It was a food service job but I enjoyed it all 
-the same and the pay was quite reasonable while allowing me to earn customer service skills. 
-However, in the most recent summer I was trying to get an internship because I realized that I 
-need to start preparing for life after college rather than just pursuing my interests. There I had 
-the big realization that things won’t always turn out the way that you want. Even though I 
-thought I put forth a lot of effort I didn’t get any internship and I settled for a rough labor job 
-working at Sam’s Club. I wasn’t a fan of the hours or working conditions that they had me to 
-operate but nevertheless I did my job, slept, and repeated the cycle. However, it was through 
-the experience that summer that I realized I needed to put forth a lot more effort or this same 
-situation could happen next summer. So this past semester and this current semester I have 
-been working extremely hard to not only participate in more events to put on my resume but 
-also to get connections that may be able to lead to job opportunities. Now I’ve started getting 
-interviews for actual professional jobs which is something I’ve never done before and it leads 
-into what’s next for my future. 
-<br>
-<br><b>Conclusion and Future Endeavors</b>
-<br><br>Now obviously I don’t know what the future holds for me but going back to that ethical 
-hacking class I talked about earlier I’m currently thinking about eventually climbing the ranks to 
-get an ethical hacking job. I’m currently waiting for some interviews to give me their response on 
-my status but if I do get an internship that would make getting a job after graduation much 
-easier and it would help to build out my resume even more. As it stands I am set to graduate in 
-the fall of 2024 and I have thoroughly enjoyed every step in the process that helped to create 
-the current version of myself that now exists.</p>
+    <p>Jerquan Brabble</p>
+    <p>Norfolk, Virginia</p>
+    <p>(804) 661-3259</p>
+    <a href="mailto:jbrab002@odu.edu">jbrab002@odu.edu</a><br>
+    <br><h2>Objective</h2>
+    <p>A dedicated and skilled student with a proven track record in ethical hacking, penetration testing, data analysis, real-time incident response, and firewall administration. Leveraging experience gained through participation in multiple Capture the Flag events and a solid educational background in cybersecurity, I am seeking opportunities to contribute my expertise to your company in enhancing cybersecurity measures and safeguarding critical assets.</p>
+    <h2>Education</h2>
+    <p><strong>Bachelor of Science in Cybersecurity</strong><br>Old Dominion University, Norfolk, VA<br>August 2022 – Present<br>GPA: 3.68; Dean’s List<br>Expected Graduation: December 2024</p>
+    <h3>Relevant Courses:</h3>
+    <ul>
+        <li>Introduction to Networking and Security</li>
+        <li>Linux System for Cybersecurity</li>
+        <li>Introduction to Cybersecurity</li>
+        <li>Intro Computer Programming</li>
+        <li>Essentials of Computer Science</li>
+        <li>Intro to Information Systems</li>
+        <li>Cybersecurity, Technology, and Society</li>
+        <li>Cybersecurity Fundamentals</li>
+        <li>Cybersecurity Ethics</li>
+        <li>Cyber Techniques and Operations</li>
+        <li>Digital Forensics</li>
+        <li>Ethical Hacking and Penetration Testing</li>
+    </ul>
 </section>
     <div id="skills">
         <h2>Skills</h2>
