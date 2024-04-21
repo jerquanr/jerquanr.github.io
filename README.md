@@ -256,6 +256,16 @@ the current version of myself that now exists.</p>
         <li>Digital Forensics</li>
         <li>Ethical Hacking and Penetration Testing</li>
     </ul>
+    <h2>Professional Experience</h2>
+        <h3>Capture the Flag Team Member</h3>
+        <p>Old Dominion University, Norfolk, VA<br>September 2023 – Present</p>
+        <ul>
+            <li>Served as a team member in Capture the Flag events, honing skills in various areas of cybersecurity.</li>
+            <li>Participated in various Capture The Flag (CTF) events, including picoCTF, HackTheBox, and Hacker101.</li>
+            <li>Achieved fourth place in Summit CTF, hosted by Virginia Tech.</li>
+            <li>Participated in Cyberforge conference and CTF competition.</li>
+            <li>Demonstrated proficiency in ethical hacking, penetration testing, and data analysis.</li>
+        </ul>
 </section>
     <div id="skills">
         <h2>Skills</h2>
