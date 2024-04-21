@@ -266,6 +266,25 @@ the current version of myself that now exists.</p>
             <li>Participated in Cyberforge conference and CTF competition.</li>
             <li>Demonstrated proficiency in ethical hacking, penetration testing, and data analysis.</li>
         </ul>
+    <h3>Customer and Food Service Worker</h3>
+        <p>Aramark, Norfolk, VA<br>September 2022 – Present</p>
+        <ul>
+            <li>Offered friendly and efficient service to customers, handled challenging situations with ease.</li>
+            <li>Proficient in operating a cash register and processing payments.</li>
+            <li>Maintained high personal grooming standards and uniform presentation.</li>
+            <li>Proved successful working within tight deadlines and fast-paced atmosphere.</li>
+        </ul>
+    <h2>Key Competencies</h2>
+    <ul>
+        <li>Familiar with basic concepts of Linux operating system.</li>
+        <li>Understanding of fundamental cybersecurity principles.</li>
+        <li>Foundational knowledge of computer programming with Java.</li>
+        <li>In-depth knowledge of networking and security principles.</li>
+        <li>Skilled in using Metasploit for penetration testing.</li>
+        <li>Proficient in Microsoft Office Suite.</li>
+    </ul>
+    <h2>Memberships</h2>
+    <p>Cybersecurity Student Association</p>
 </section>
     <div id="skills">
         <h2>Skills</h2>
