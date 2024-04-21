@@ -235,6 +235,60 @@ the current version of myself that now exists.</p>
 <header>
     <p>Jerquan Brabble</p>
     <p>Norfolk, Virginia</p>
+    <p>(804) 661-3259</p>
+    <a href="mailto:jbrab002@odu.edu">jbrab002@odu.edu</a><br>
+    <br><h2>Objective</h2>
+    <p>A dedicated and skilled student with a proven track record in ethical hacking, penetration testing, data analysis, real-time incident response, and firewall administration. Leveraging experience gained through participation in multiple Capture the Flag events and a solid educational background in cybersecurity, I am seeking opportunities to contribute my expertise to your company in enhancing cybersecurity measures and safeguarding critical assets.</p>
+    <h2>Education</h2>
+    <p><strong>Bachelor of Science in Cybersecurity</strong><br>Old Dominion University, Norfolk, VA<br>August 2022 – Present<br>GPA: 3.68; Dean’s List<br>Expected Graduation: December 2024</p>
+    <h3>Relevant Courses:</h3>
+    <ul>
+        <li>Introduction to Networking and Security</li>
+        <li>Linux System for Cybersecurity</li>
+        <li>Introduction to Cybersecurity</li>
+        <li>Intro Computer Programming</li>
+        <li>Essentials of Computer Science</li>
+        <li>Intro to Information Systems</li>
+        <li>Cybersecurity, Technology, and Society</li>
+        <li>Cybersecurity Fundamentals</li>
+        <li>Cybersecurity Ethics</li>
+        <li>Cyber Techniques and Operations</li>
+        <li>Digital Forensics</li>
+        <li>Ethical Hacking and Penetration Testing</li>
+    </ul>
+    <h2>Professional Experience</h2>
+    <article>
+        <h3>Capture the Flag Team Member</h3>
+        <p>Old Dominion University, Norfolk, VA<br>September 2023 – Present</p>
+        <ul>
+            <li>Served as a team member in Capture the Flag events, honing skills in various areas of cybersecurity.</li>
+            <li>Participated in various Capture The Flag (CTF) events, including picoCTF, HackTheBox, and Hacker101.</li>
+            <li>Achieved fourth place in Summit CTF, hosted by Virginia Tech.</li>
+            <li>Participated in Cyberforge conference and CTF competition.</li>
+            <li>Demonstrated proficiency in ethical hacking, penetration testing, and data analysis.</li>
+        </ul>
+        <h3>Customer and Food Service Worker</h3>
+        <p>Aramark, Norfolk, VA<br>September 2022 – Present</p>
+        <ul>
+            <li>Offered friendly and efficient service to customers, handled challenging situations with ease.</li>
+            <li>Proficient in operating a cash register and processing payments.</li>
+            <li>Maintained high personal grooming standards and uniform presentation.</li>
+            <li>Proved successful working within tight deadlines and fast-paced atmosphere.</li>
+        </ul>
+        <h2>Key Competencies</h2>
+    <ul>
+        <li>Familiar with basic concepts of Linux operating system.</li>
+        <li>Understanding of fundamental cybersecurity principles.</li>
+        <li>Foundational knowledge of computer programming with Java.</li>
+        <li>In-depth knowledge of networking and security principles.</li>
+        <li>Skilled in using Metasploit for penetration testing.</li>
+        <li>Proficient in Microsoft Office Suite.</li>
+    </ul>
+        <h2>Memberships</h2>
+    <p>Cybersecurity Student Association</p>
+</header>
+</section>
+    </div>
     <div id="skills">
         <h2>Skills</h2>
         <canvas id="skillsChart"></canvas>
