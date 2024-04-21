@@ -321,7 +321,7 @@ the current version of myself that now exists.</p>
  <section id="reflection">
 <h2>Reflection</h2>
 <p>
-<p>Culmination of Hard Work: Reflecting on my academic career for the future</p>
+<p><b>Culmination of Hard Work: Reflecting on my academic career for the future</b></p>
 <p>Jerquan Brabble</p>
 <p>Old Dominion University</p>
 <p>IDS 493: Electronic Portfolio Project</p>
