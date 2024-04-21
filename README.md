@@ -231,7 +231,6 @@ easier and it would help to build out my resume even more. As it stands I am set
 the fall of 2024 and I have thoroughly enjoyed every step in the process that helped to create 
 the current version of myself that now exists.</p>
 </div>
-
 <section id="resume">
     <h2>Resume</h2>
 <header>
@@ -288,6 +287,7 @@ the current version of myself that now exists.</p>
     </ul>
         <h2>Memberships</h2>
     <p>Cybersecurity Student Association</p>
+</header>
 </section>
     <div id="skills">
         <h2>Skills</h2>
