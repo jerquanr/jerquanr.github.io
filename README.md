@@ -53,7 +53,7 @@
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        #about, #skills, #proficiency, #contact {
+        #about, #resume, #skills, #proficiency, #reflection, #contact {
             background-color: #87CEEB; /* Light blue background */
             color: white;
             padding: 20px;
@@ -111,8 +111,10 @@
     <nav>
         <a href="#welcome">Welcome</a>
         <a href="#about">About</a>
+        <a href="#resume">Resume</a>
         <a href="#skills">Skills</a>
         <a href="#proficiency">Proficiency</a>
+        <a href="#reflection">Reflection</a>
         <a href="#contact">Contact</a>
     </nav>
     <div id="welcome" class="centered-content">
@@ -125,7 +127,7 @@
     <div id="about">
         <h2>About</h2>
         <img src="https://media.licdn.com/dms/image/D4E03AQFQjimbIykhSw/profile-displayphoto-shrink_200_200/0/1699579434374?e=2147483647&v=beta&t=YhfAaccuy1WIWXMbZyzFQBLAybPg8KN2rTa3UrWyKhQ" style="width: 200px; height: 200px; float: left; margin-right: 20px;">
-        <p><br><b>Detailing events of my past that transformed me into the person of today.</b>
+<p><br><b>Detailing events of my past that transformed me into the person of today.</b>
         <br>by Jerquan Brabble
         <br>Old Dominion University
         <br><br><b>Early Life</b>
