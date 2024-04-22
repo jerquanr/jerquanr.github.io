@@ -64,13 +64,16 @@
             margin-top: 0;
         }
         #best-work {
-            display: flex; /* Set proficiency section to flex */
-            justify-content: space-between; /* Space between header and grid */
-            align-items: start; /* Align items to start vertically */
+            padding: 20px;
+            border-radius: 5px;
+        }
+        #best-work h2 {
+            margin-bottom: 10px; /* Ensures spacing between the header and instruction text */
         }
         .best-work-grid {
             display: grid;
-            margin-left: -200px;
+            margin-left: 0px;
+            border-top: none;
             grid-template-columns: repeat(4, 50px); /* Four columns each 50px wide */
             grid-template-rows: repeat(5, 50px); /* Five rows each 50px high */
             grid-gap: 0; /* No space between grid items */
@@ -107,14 +110,15 @@
             resize: vertical;
         }
         #instruction-text {
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: #333;
-    font-size: 16px;
-    text-align: center;
+            margin: 0;
+            padding: 10px;
+            background-color: #f7f7f7;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            border-bottom: 2px solid #ccc;
+            color: #333;
+            font-size: 16px;
+            text-align: center;
 }
     </style>
 </head>
