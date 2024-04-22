@@ -435,7 +435,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "https://docs.google.com/document/d/1MuOIBRh_hMzdB0wmjO9COb9QpQNyeXQ9nnZ9NWIfl2I/preview",
         "",
         "https://jerquanr.github.io/#welcome",
-        "https://summitctf.org/"
+        "https://summitctf.org/",
+        "https://streamable.com/sffvjy"
     ];
     const bestworkItems = document.querySelectorAll('#best-work .best-work-item');
     bestworkItems.forEach((item, index) => {
