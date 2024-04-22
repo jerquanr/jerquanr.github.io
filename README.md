@@ -119,7 +119,36 @@
             color: #333;
             font-size: 16px;
             text-align: center;
-}
+        
+        }
+        #gridclickers2 {
+          cursor: pointer;
+        }
+        #gridclickers3 {
+          cursor: pointer;
+        }
+        #gridclickers4 {
+          cursor: pointer;
+        }
+        #gridclickers6 {
+          cursor: pointer;
+        }
+        #gridclickers7 {
+          cursor: pointer;
+        }
+        #gridclickers8 {
+          cursor: pointer;
+        }
+        #gridclickers10 {
+          cursor: pointer;
+        }
+        #gridclickers11 {
+          cursor: pointer;
+        }
+        #video-trigger {
+            cursor: pointer;
+        }
+        
     </style>
 </head>
 <body>
@@ -245,6 +274,7 @@ the fall of 2024 and I have thoroughly enjoyed every step in the process that he
 the current version of myself that now exists.</p>
 </div>
 
+
 <section id="resume">
     <h2>Resume</h2>
     <p>Jerquan Brabble</p>
@@ -252,7 +282,7 @@ the current version of myself that now exists.</p>
     <p>(804) 661-3259</p>
     <a href="mailto:jbrab002@odu.edu">jbrab002@odu.edu</a><br>
     <br><h2>Objective</h2>
-    <p>A dedicated and skilled student with a proven track record in ethical hacking, network testing, data analysis, real-time incident response, and firewall administration. Leveraging experience gained through participation in             multiple Capture the Flag events and a solid educational background in cybersecurity, I am seeking opportunities to contribute my expertise to your company in enhancing cybersecurity measures and safeguarding critical assets.</p>
+    <p>A dedicated and skilled student with a proven track record in ethical hacking, network testing, data analysis, real-time incident response, and firewall administration. Leveraging experience gained through participation in multiple Capture the Flag events and a solid educational background in cybersecurity, I am seeking opportunities to contribute my expertise to your company in enhancing cybersecurity measures and safeguarding critical assets.</p>
     <h2>Education</h2>
     <p><strong>Bachelor of Science in Cybersecurity</strong><br>Old Dominion University, Norfolk, VA<br>August 2022 – Present<br>GPA: 3.68; Dean’s List<br>Expected Graduation: December 2024</p>
     <h3>Relevant Courses:</h3>
@@ -310,18 +340,18 @@ the current version of myself that now exists.</p>
         Click on one of the items in the grid below to take a look at some of my best work.
     </p>
         <div class="best-work-grid">
-            <div class="best-work-item" ><img src="https://logos.flamingtext.com/Word-Logos/writing-design-sketch-name.png" alt="Image 1"></div>
-            <div class="best-work-item" ><img src="https://icons.iconarchive.com/icons/iconsmind/outline/512/Paper-icon.png" alt="Image 2"></div>
-            <div class="best-work-item" ><img src="https://static.thenounproject.com/png/2473397-200.png" alt="Image 3"></div>
-            <div class="best-work-item" ><img src="https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-paper-icon-png-image_6294297.png" alt="Image 4"></div>
-            <div class="best-work-item" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4X2zYfSztRV5Ou6CSJ5pnsrzGjaEp3Sg7tSL_HBdDA&s" alt="Image 5"></div>
-            <div class="best-work-item" ><img src="https://static.thenounproject.com/png/2216968-200.png" alt="Image 6"></div>
-            <div class="best-work-item" ><img src="https://static-00.iconduck.com/assets.00/malware-detected-icon-426x512-kbw42at9.png" alt="Image 7"></div>
-            <div class="best-work-item" ><img src="https://cdn-icons-png.flaticon.com/512/6463/6463383.png" alt="Image 8"></div>
-            <div class="best-work-item" ><img src="https://i.ytimg.com/vi/tTtjETjGDFY/maxresdefault.jpg" alt="Image 9"></div>
-            <div class="best-work-item" ><img src="https://p7.hiclipart.com/preview/569/605/184/internet-icon-internet-access-web-browser-circle-with-line-through-it.jpg" alt="Image 10"></div>
-            <div class="best-work-item" ><img src="https://deow9bq0xqvbj.cloudfront.net/ep-logo/pbblog8987066/EP55_CTF_Iconbdemd.png" alt="Image 11"></div>
-            <div class="best-work-item" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Video_camera_icon.svg/1200px-Video_camera_icon.svg.png" alt="Image 12"></div>
+            <div class="best-work-item" ><img src="https://logos.flamingtext.com/Word-Logos/writing-design-sketch-name.png" alt="Image 1" id="gridclickers1"></div>
+            <div class="best-work-item" ><img src="https://icons.iconarchive.com/icons/iconsmind/outline/512/Paper-icon.png" alt="Image 2" id="gridclickers2"></div>
+            <div class="best-work-item" ><img src="https://static.thenounproject.com/png/2473397-200.png" alt="Image 3" id="gridclickers3"></div>
+            <div class="best-work-item" ><img src="https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-paper-icon-png-image_6294297.png" alt="Image 4" id="gridclickers4"></div>
+            <div class="best-work-item" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4X2zYfSztRV5Ou6CSJ5pnsrzGjaEp3Sg7tSL_HBdDA&s" alt="Image 5" id="gridclickers5"></div>
+            <div class="best-work-item" ><img src="https://static.thenounproject.com/png/2216968-200.png" alt="Image 6" id="gridclickers6"></div>
+            <div class="best-work-item" ><img src="https://static-00.iconduck.com/assets.00/malware-detected-icon-426x512-kbw42at9.png" alt="Image 7" id="gridclickers7"></div>
+            <div class="best-work-item" ><img src="https://cdn-icons-png.flaticon.com/512/6463/6463383.png" alt="Image 8" id="gridclickers8"></div>
+            <div class="best-work-item" ><img src="https://i.ytimg.com/vi/tTtjETjGDFY/maxresdefault.jpg" alt="Image 9" id="gridclickers9"></div>
+            <div class="best-work-item" ><img src="https://p7.hiclipart.com/preview/569/605/184/internet-icon-internet-access-web-browser-circle-with-line-through-it.jpg" alt="Image 10" id="gridclickers10"></div>
+            <div class="best-work-item" ><img src="https://deow9bq0xqvbj.cloudfront.net/ep-logo/pbblog8987066/EP55_CTF_Iconbdemd.png" alt="Image 11" id="gridclickers11"></div>
+            <div class="best-work-item" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Video_camera_icon.svg/1200px-Video_camera_icon.svg.png" alt="Video 1" id="video-trigger"></div>
         </div>
         <div class="document-viewer">
         <iframe id="docFrame" style="width:100%; height:400px; border:none;"></iframe>
