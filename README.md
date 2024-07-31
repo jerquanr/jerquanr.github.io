@@ -54,13 +54,13 @@
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        #about, #resume, #skills, #best-work, #reflection, #contact {
+        #about, #resume, #skills, #best-work, #internship, #contact {
             background-color: #87CEEB; /* Light blue background */
             color: white;
             padding: 20px;
             margin-top: 50px;
         }
-        #skills h2, #about h2, #best-work h2, #resume h2, #reflection h2 {
+        #skills h2, #about h2, #best-work h2, #resume h2, #internship h2 {
             margin-top: 0;
         }
         #best-work {
@@ -357,7 +357,7 @@ the current version of myself that now exists.</p>
         <iframe id="docFrame" style="width:100%; height:400px; border:none;"></iframe>
     </div>
 </div>
- <section id="reflection">
+ <section id="internship">
 <h2>Reflection</h2>
 <p>
 <p>System Analyst for the City of Virginia Beach</p>
