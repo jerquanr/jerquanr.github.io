@@ -158,7 +158,7 @@
         <a href="#resume">Resume</a>
         <a href="#skills">Skills</a>
         <a href="#best-work">Best Work</a>
-        <a href="#reflection">Reflection</a>
+        <a href="#internship">Internship</a>
         <a href="#contact">Contact</a>
     </nav>
     <div id="welcome" class="centered-content">
